@@ -79,6 +79,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">Prioridad ISO</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Prioridad de tiempo de exposición</string>
     <string name="pref_camera_manual_exp_entry_user_setting">Configuración de usuario</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Prioridad de ganancia</string>
     <string name="pref_camera_manual_exp_entry_off">Apagar</string>
     <!-- Manual white balance entry values -->
     <string name="pref_camera_manual_wb_title">Balance de blancos manual</string>
@@ -196,10 +197,12 @@
     <string name="pref_camera_hfr_entry_3x">Cámara lenta a 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Cámara lenta a 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Cámara lenta a 240 FPS</string>
+    <string name="pref_camera_hfr_entry_16x">Cámara lenta a 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Alta velocidad a 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Alta velocidad a 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Alta velocidad a 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Alta velocidad 240 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_480">Cámara rápida a 480 FPS</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -487,6 +490,9 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Con Time lapse, puedes transformar una grabación de video larga en unos segundos de video. Este efecto se aplica a los videos, pero no a las fotos.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Te permite hacer panorámicas desplazándote a la izquierda o a la derecha. También puedes hacer panorámicas hacia arriba o hacia abajo para sacar fotos altas.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster reduce el desenfoque de las manos temblorosas. Puede ser útil al tomar fotos en lugares difíciles.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">Con el modo profesional, puedes controlar manualmente los ajustes de ISO, exposición, balance de blancos y enfoque. Tendrás fácil acceso a todos estos ajustes avanzados.</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">Con el modo DeepZoom, puedes tomar una foto con zoom mejorado de 2x o 4x.</string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">Con el modo DeepPortrait, puedes tomar selfies con un fondo desenfocado. Puedes usar el deslizador para ajustar la cantidad del desenfoque.</string>
     <string name="pref_camera2_not_show_again">No mostrar de nuevo</string>
     <string name="pref_camera2_scene_mode_instructional_ok">Aceptar</string>
     <string name="pref_camera2_instant_aec_title">AEC instantánea</string>
@@ -547,24 +553,42 @@
     <string name="pref_camera2_zsl_entry_disable">Apagar</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Software ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Hardware ZSL</string>
+    <string name="pref_camera2_videoencoderprofile_title">Perfil de codificación</string>
     <string name="pref_camera2_afmode_entry_disable">Desactivado</string>
     <string name="pref_camera2_afmode_entry_off">Apagar</string>
+    <string name="pref_camera2_afmode_entry_continuous_video">Video continuo</string>
+    <string name="pref_camera2_afmode_entry_continuous_picture">Ráfaga</string>
+    <string name="pref_camera2_afmode_entry_edof">Profundidad de enfoque extendida</string>
     <string name="pref_camera2_switch_camera_title">Cambiar cámara por ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
+    <string name="pref_camera2_eis_title">Video estabilizado (Electrónicamente)</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 y establecer cuando se pause</string>
     <string name="pref_camera2_eis_entry_disable">Desactivado</string>
+    <string name="pref_camera2_fovc_title">Video FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Activado</string>
     <string name="pref_camera2_fovc_entry_disable">Desactivado</string>
     <string name="pref_camera2_video_hdr_entry_enable">Activado</string>
     <string name="pref_camera2_video_hdr_entry_disable">Desactivado</string>
     <string name="pref_camera2_picture_format_title">Formato de imagen</string>
+    <string name="pref_camera2_stats_visualizer_title">Visualizador de estadísticas</string>
+    <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estadísticas de BG</string>
+    <string name="pref_camera2_stats_visualizer_entry_be_stats">Estadísticas de BE</string>
+    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Estadísticas de Hist</string>
+    <string name="stats_visualizer_bg_label">Vista gráfica de BG</string>
+    <string name="stats_visualizer_be_label">Vista gráfica de BE</string>
+    <string name="pref_camera2_capture_mfnr_title">Reducción de ruido multi-pantalla</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Activado</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Desactivado</string>
+    <string name="pref_camera2_fs2_title">Obturador rápido</string>
     <string name="pref_camera2_fs2_entry_enable">Activado</string>
     <string name="pref_camera2_fs2_entry_disable">Desactivado</string>
+    <string name="pref_camera2_abort_captures_title">Abortar capturas</string>
     <string name="pref_camera2_abort_captures_entry_enable">Activado</string>
     <string name="pref_camera2_abort_captures_entry_disable">Desactivado</string>
 </resources>
