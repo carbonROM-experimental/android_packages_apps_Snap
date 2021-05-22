@@ -50,6 +50,7 @@
     <string name="pref_camera_audioencoder_title">音訊編碼器</string>
     <!-- Settings screen, Audio encoder dialog radio button choices -->
     <!-- Default Skin Tone Enhancement setting. Do not translate. -->
+    <string name="pref_camera_skinToneEnhancement_default">停用</string>
     <!-- Settings screen, Select Skin Tone Enhancement title -->
     <string name="pref_camera_skinToneEnhancement_title">膚色色調強化</string>
     <!-- Settings screen, Skin Tone Enhancement radio button choices -->
@@ -179,6 +180,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">自動包圍曝光</string>
     <string name="pref_camera_ae_bracket_hdr_title">自動包圍曝光</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">開</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">關閉</string>
     <string name="err_app_unsupport_ae_bracket_code">尚不支援自動包圍曝光</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">影像快照尺寸比影像尺寸小，如調高影像尺寸、也請調高解析度或符合目前影像尺寸的解析要求。</string>
@@ -564,6 +566,9 @@
     <string name="pref_camera2_initial_camera_entry_mono">單色</string>
     <string name="pref_camera2_initial_camera_entry_front">前面</string>
     <string name="pref_camera2_eis_title">影片 EIS</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3和設置暫停時</string>
     <string name="pref_camera2_eis_entry_disable">已停用</string>
     <string name="pref_camera2_fovc_title">影片 FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">已啟用</string>
@@ -575,11 +580,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG 統計</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE 統計</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">歷史統計</string>
+    <string name="stats_visualizer_bg_label">BG 圖形視圖</string>
+    <string name="stats_visualizer_be_label">BE 圖形視圖</string>
     <string name="pref_camera2_capture_mfnr_title">多影格降噪</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">已啟用</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">已停用</string>
+    <string name="pref_camera2_fs2_title">快速快門</string>
     <string name="pref_camera2_fs2_entry_enable">已啟用</string>
     <string name="pref_camera2_fs2_entry_disable">已停用</string>
+    <string name="pref_camera2_abort_captures_title">取消保存</string>
     <string name="pref_camera2_abort_captures_entry_enable">已啟用</string>
     <string name="pref_camera2_abort_captures_entry_disable">已停用</string>
 </resources>

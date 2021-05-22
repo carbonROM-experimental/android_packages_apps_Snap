@@ -505,10 +505,14 @@
     <string name="pref_camera2_video_hdr_entry_enable">Engedélyezve</string>
     <string name="pref_camera2_video_hdr_entry_disable">Kikapcsolva</string>
     <string name="pref_camera2_picture_format_title">Válasszon kép formátumot</string>
+    <string name="stats_visualizer_bg_label">BG gráf nézet</string>
+    <string name="stats_visualizer_be_label">BE gráf nézet</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Engedélyezve</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Kikapcsolva</string>
+    <string name="pref_camera2_fs2_title">Gyors kioldó</string>
     <string name="pref_camera2_fs2_entry_enable">Engedélyezve</string>
     <string name="pref_camera2_fs2_entry_disable">Kikapcsolva</string>
+    <string name="pref_camera2_abort_captures_title">Felvételek megszakítása</string>
     <string name="pref_camera2_abort_captures_entry_enable">Engedélyezve</string>
     <string name="pref_camera2_abort_captures_entry_disable">Kikapcsolva</string>
 </resources>

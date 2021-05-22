@@ -577,11 +577,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Thống kê BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Thống kê BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Thống kê lịch sử</string>
+    <string name="stats_visualizer_bg_label">Chế độ xem đồ thị BG</string>
+    <string name="stats_visualizer_be_label">Chế độ xem đồ thị BE</string>
     <string name="pref_camera2_capture_mfnr_title">Giảm nhiễu đa khung</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Đã bật</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Đã tắt</string>
+    <string name="pref_camera2_fs2_title">Màn trập nhanh</string>
     <string name="pref_camera2_fs2_entry_enable">Đã bật</string>
     <string name="pref_camera2_fs2_entry_disable">Đã tắt</string>
+    <string name="pref_camera2_abort_captures_title">Hủy bỏ chụp</string>
     <string name="pref_camera2_abort_captures_entry_enable">Đã bật</string>
     <string name="pref_camera2_abort_captures_entry_disable">Đã tắt</string>
 </resources>

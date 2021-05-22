@@ -101,8 +101,8 @@
     <string name="pref_camera_zsl_entry_off">OFF</string>
     <string name="pref_camera_zsl_entry_on">ON</string>
     <!-- The message is shown in toast when HDR or scene mode is enabled -->
-    <string name="hdr_enable_message">HDRが有効です。オートシーンモードのみサポートされています</string>
-    <string name="scene_enable_message">オート以外のシーンモードではHDRはサポートされていません</string>
+    <string name="hdr_enable_message">HDR が有効です。オートシーンモードのみサポートされています。</string>
+    <string name="scene_enable_message">オート以外のシーンモードでは HDR はサポートされていません</string>
     <!-- Settings screen, Video HDR location dialog choices -->
     <string name="pref_camera_video_hdr_entry_off">OFF</string>
     <string name="pref_camera_video_hdr_entry_on">ON</string>
@@ -123,17 +123,17 @@
     <string name="pref_camera_video_tnr_entry_enable">有効</string>
     <!-- Settings screen, video TNR location dialog choices -->
     <!-- Settings screen, setting title text for Video HDR-->
-    <string name="pref_camera_video_hdr_title">動画HDR</string>
+    <string name="pref_camera_video_hdr_title">動画 HDR</string>
     <!-- Settings menu, setting title text for cds mode-->
-    <string name="pref_camera_cds_title">CDSモード</string>
+    <string name="pref_camera_cds_title">CDS モード</string>
     <!-- Settings menu, setting title text for video cds mode-->
-    <string name="pref_camera_video_cds_title">動画CDSモード</string>
+    <string name="pref_camera_video_cds_title">動画 CDS モード</string>
     <!-- Default cds mode setting-->
     <!-- Default video cds mode setting-->
     <!-- Settings menu, setting title text for tnr mode-->
-    <string name="pref_camera_tnr_title">TNRモード</string>
+    <string name="pref_camera_tnr_title">TNR モード</string>
     <!-- Settings menu, setting title text for video tnr mode-->
-    <string name="pref_camera_video_tnr_title">動画TNRモード</string>
+    <string name="pref_camera_video_tnr_title">動画 TNR モード</string>
     <!-- Default tnr mode setting-->
     <!-- Default video tnr mode setting-->
     <!-- Default face  detection setting. -->
@@ -161,7 +161,7 @@
     <string name="pref_camera_shuttersound_entry_enable">有効</string>
     <string name="pref_camera_shuttersound_entry_disable">無効</string>
     <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
-    <string name="error_app_unsupported_hfr_selection">高フレームレート録画は手ぶれ補正/低速度撮影/HDR使用時は使用できません。</string>
+    <string name="error_app_unsupported_hfr_selection">高フレームレート録画は手ぶれ補正/低速度撮影/HDR 使用時は使用できません。</string>
     <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
     <string name="error_app_unsupported_hfr">選択した動画サイズではスローモーションモードは使用できません。小さい動画サイズを選択して下さい。</string>
     <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -193,16 +193,16 @@
     <string name="pref_camera_hfr_title">スローモーション</string>
     <!-- Settings screen, hfr radio button choices -->
     <string name="pref_camera_hfr_entry_off">OFF</string>
-    <string name="pref_camera_hfr_entry_2x">スローモーション 60 FPS</string>
-    <string name="pref_camera_hfr_entry_3x">スローモーション 90 FPS</string>
-    <string name="pref_camera_hfr_entry_4x">スローモーション 120 FPS</string>
-    <string name="pref_camera_hfr_entry_8x">スローモーション 240 FPS</string>
-    <string name="pref_camera_hfr_entry_16x">スローモーション 480 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_60">ハイスピード 60 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_90">ハイスピード 90 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_120">ハイスピード 120 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_240">ハイスピード 240 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_480">ハイスピード 480 FPS</string>
+    <string name="pref_camera_hfr_entry_2x">スローモーション 60FPS</string>
+    <string name="pref_camera_hfr_entry_3x">スローモーション 90FPS</string>
+    <string name="pref_camera_hfr_entry_4x">スローモーション 120FPS</string>
+    <string name="pref_camera_hfr_entry_8x">スローモーション 240FPS</string>
+    <string name="pref_camera_hfr_entry_16x">スローモーション 480FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_60">ハイスピード 60FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_90">ハイスピード 90FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_120">ハイスピード 120FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_240">ハイスピード 240FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_480">ハイスピード 480FPS</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -262,8 +262,8 @@
     <!-- Default Anti Banding setting. -->
     <!-- Settings screen, Anti Banding entries -->
     <string name="pref_camera_antibanding_entry_0">オート</string>
-    <string name="pref_camera_antibanding_entry_1">50 Hz (ヨーロッパ)</string>
-    <string name="pref_camera_antibanding_entry_2">60 Hz (アメリカ)</string>
+    <string name="pref_camera_antibanding_entry_1">50Hz (ヨーロッパ)</string>
+    <string name="pref_camera_antibanding_entry_2">60Hz (アメリカ)</string>
     <!-- Default color effect setting. -->
     <string name="pref_camera_filter_mode_entry_on">ON</string>
     <string name="pref_camera_filter_mode_entry_off">OFF</string>
@@ -373,17 +373,17 @@
     <!-- Toast showing non-supported functionality for flash in AE bracket -->
     <string name="flash_aebracket_message">フラッシュは自動段階露出モードでは使用できません</string>
     <!-- Settings screen, setting title text for Auto HDR-->
-    <string name="pref_camera_auto_hdr_title">オートHDR</string>
+    <string name="pref_camera_auto_hdr_title">オート HDR</string>
     <!-- Settings screen, Auto HDR location dialog choices -->
     <string name="pref_camera_auto_hdr_entry_enable">有効</string>
     <string name="pref_camera_auto_hdr_entry_disable">無効</string>
     <!-- toast message for storage location switch -->
     <string name="on_switch_save_path_to_sdcard">内部ストレージの容量が少なくなっているためストレージの場所を SD カードに切り替えました</string>
     <!-- Settings screen, Selectable HDR mode title -->
-    <string name="pref_camera_hdr_mode_title">HDRモード</string>
+    <string name="pref_camera_hdr_mode_title">HDR モード</string>
     <!-- Settings screen, Selectable HDR mode radio button choices -->
-    <string name="pref_camera_hdr_mode_entry_sensor">センサーHDR</string>
-    <string name="pref_camera_hdr_mode_entry_multi_frame">マルチフレームHDR</string>
+    <string name="pref_camera_hdr_mode_entry_sensor">センサー HDR</string>
+    <string name="pref_camera_hdr_mode_entry_multi_frame">マルチフレーム HDR</string>
     <!-- HDR mode entry values. Do not translate. -->
     <!--Default video rotation setting-->
     <!--Settings screen, video rotation title-->
@@ -437,7 +437,7 @@
     <string name="pref_camera2_clearsight_entry_off">OFF</string>
     <string name="clearsight_capture_success">ClearSight キャプチャが完了しました</string>
     <string name="clearsight_capture_fail">ClearSight キャプチャに失敗しました</string>
-    <string name="pref_camera2_mpo_title">MPO 形式</string>
+    <string name="pref_camera2_mpo_title">MPO フォーマット</string>
     <string name="pref_camera2_mpo_entry_on">ON</string>
     <string name="pref_camera2_mpo_entry_off">OFF</string>
     <string name="pref_camera2_makeup_title">メイクアップ</string>
@@ -467,7 +467,7 @@
     <string name="pref_camera2_timer_entry_2sec">2秒</string>
     <string name="pref_camera2_timer_entry_5sec">5秒</string>
     <string name="pref_camera2_timer_entry_10sec">10秒</string>
-    <string name="pref_camera2_saveraw_title">RAW 形式で保存する</string>
+    <string name="pref_camera2_saveraw_title">RAW 形式で保存</string>
     <string name="panocapture_direction_is_not_determined">常に一方向へ移動して下さい</string>
     <string name="panocapture_intro">開始するにはカメラボタンを押して下さい</string>
     <string name="panocapture_direction_is_changed">方向が変わったため、パノラマ撮影を中止します\u2026</string>
@@ -513,8 +513,8 @@
     <string name="pref_camera2_saturation_level_entry_10">レベル10</string>
     <string name="pref_camera2_anti_banding_level_title">アンチバンディング</string>
     <string name="pref_camera2_anti_banding_level_entry_off">OFF</string>
-    <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (ヨーロッパ)</string>
-    <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (アメリカ)</string>
+    <string name="pref_camera2_anti_banding_level_entry_50hz">50Hz (ヨーロッパ)</string>
+    <string name="pref_camera2_anti_banding_level_entry_60hz">60Hz (アメリカ)</string>
     <string name="pref_camera2_anti_banding_level_entry_auto">オート</string>
     <string name="pref_camera2_histogram_title">ヒストグラム</string>
     <string name="pref_camera2_histogram_entry_enable">有効</string>
@@ -522,13 +522,13 @@
     <string name="pref_camera2_hdr_title">HDR</string>
     <string name="pref_camera2_hdr_entry_enable">有効</string>
     <string name="pref_camera2_hdr_entry_disable">無効</string>
-    <string name="pref_camera2_auto_hdr_title">オートHDR</string>
+    <string name="pref_camera2_auto_hdr_title">オート HDR</string>
     <string name="pref_camera2_auto_hdr_entry_enable">有効</string>
     <string name="pref_camera2_auto_hdr_entry_disable">無効</string>
     <string name="pref_camera_bokeh_mode_title">ボケモード</string>
     <string name="pref_camera_bokeh_mode_entry_enable">有効</string>
     <string name="pref_camera_bokeh_mode_entry_disable">無効</string>
-    <string name="pref_camera_bokeh_mpo_title">ボケモード MPO</string>
+    <string name="pref_camera_bokeh_mpo_title">ぼけモード MPO</string>
     <string name="pref_camera_bokeh_mpo_entry_enable">有効</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">無効</string>
     <string name="pref_camera_bokeh_blur_degree_title">ぼかし具合</string>
