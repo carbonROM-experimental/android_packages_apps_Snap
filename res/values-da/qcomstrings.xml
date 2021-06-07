@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -165,6 +165,8 @@
     <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
     <string name="pref_camera_filter_mode_entry_on">Til</string>
     <string name="pref_camera_filter_mode_entry_off">Fra</string>
+    <string name="pref_camera_coloreffect_title">Farveeffekt</string>
+    <string name="pref_camera_filter_mode_title">Farveeffekt</string>
     <string name="pref_camera_coloreffect_entry_none">Ingen</string>
     <string name="pref_camera_coloreffect_entry_mono">Mono</string>
     <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
@@ -236,6 +238,7 @@
     <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Aktivér</string>
     <string name="pref_camera_auto_hdr_entry_disable">Deaktivér</string>
+    <string name="on_switch_save_path_to_sdcard">Der er ikke nok intern lagerplads, skiftede lagerplacering til SD-kort</string>
     <string name="pref_camera_hdr_mode_title">HDR tilstand</string>
     <string name="pref_camera_hdr_mode_entry_sensor">HDR sensor</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-billed HDR</string>
@@ -274,7 +277,6 @@
     <string name="pref_camera2_camera2_entry_enable">Aktivér</string>
     <string name="pref_camera2_camera2_entry_disable">Deaktivér</string>
     <string name="pref_camera2_mono_only_title">Kun mono</string>
-    <string name="pref_camera2_mono_only_entry_on">Til</string>
     <string name="pref_camera2_mono_only_entry_off">Fra</string>
     <string name="pref_camera2_mono_preview_title">Eksempel på Mono</string>
     <string name="pref_camera2_mono_preview_entry_on">Til</string>
@@ -287,7 +289,6 @@
     <string name="pref_camera2_mpo_entry_on">Til</string>
     <string name="pref_camera2_mpo_entry_off">Fra</string>
     <string name="pref_camera2_makeup_title">Makeup</string>
-    <string name="pref_camera2_makeup_entry_on">Til</string>
     <string name="pref_camera2_makeup_entry_off">Fra</string>
     <string name="pref_camera2_noise_reduction_title">Støjreduktion</string>
     <string name="pref_camera2_noise_reduction_entry_off">Fra</string>
@@ -296,10 +297,8 @@
     <string name="pref_camera2_videosnap_title">Automatisk snapshotstørrelse</string>
     <string name="pref_camera2_videosnap_entry_enable">Aktivér</string>
     <string name="pref_camera2_videosnap_entry_disable">Deaktivér</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">Aktivér</string>
-    <string name="pref_camera2_touch_track_focus_off">Deaktivér</string>
-    <string name="pref_camera2_multi_cameras_entry_on">Aktivér</string>
-    <string name="pref_camera2_multi_cameras_entry_off">Deaktivér</string>
+    <string name="pref_camera2_trackingfocus_title">Sporingsfokus</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Fra</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Bedste billede</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Sporingsfokus</string>
     <string name="bestpicture_done">UDFØRT</string>
@@ -347,27 +346,19 @@
     <string name="pref_camera2_bsgc_entry_disable">Deaktivér</string>
     <string name="pref_camera2_zsl_title">Ingen udløserforsinkelse</string>
     <string name="pref_camera2_zsl_entry_disable">Fra</string>
-    <string name="pref_camera2_zsl_entry_hal_zsl">Fysisk ZSL</string>
     <string name="pref_camera2_afmode_entry_disable">Deaktiveret</string>
     <string name="pref_camera2_afmode_entry_off">Fra</string>
-    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
-    <string name="pref_camera2_initial_camera_entry_front">Front</string>
     <string name="pref_camera2_eis_entry_disable">Deaktiveret</string>
     <string name="pref_camera2_fovc_entry_enable">Aktiveret</string>
     <string name="pref_camera2_fovc_entry_disable">Deaktiveret</string>
     <string name="pref_camera2_video_hdr_entry_enable">Aktiveret</string>
     <string name="pref_camera2_video_hdr_entry_disable">Deaktiveret</string>
     <string name="pref_camera2_picture_format_title">Billedformat</string>
-    <string name="pref_camera2_switcher_entry_front">Front</string>
-    <string name="pref_camera2_force_aux_entry_on">Til</string>
-    <string name="pref_camera2_force_aux_entry_off">Fra</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Aktiveret</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Deaktiveret</string>
     <string name="pref_camera2_fs2_entry_enable">Aktiveret</string>
     <string name="pref_camera2_fs2_entry_disable">Deaktiveret</string>
     <string name="pref_camera2_abort_captures_entry_enable">Aktiveret</string>
     <string name="pref_camera2_abort_captures_entry_disable">Deaktiveret</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">Brugerindstilling</string>
-    <string name="pref_camera_tone_mapping_entry_off">Fra</string>
 </resources>

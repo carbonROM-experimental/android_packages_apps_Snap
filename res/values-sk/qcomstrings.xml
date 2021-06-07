@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@
     <string name="pref_camera_videoencoder_title">Kodek videa</string>
     <string name="pref_camera_videoencoder_dialogtitle">Kodek videa</string>
     <string name="pref_camera_audioencoder_title">Kodek zvuku</string>
+    <string name="pref_camera_skinToneEnhancement_default">zakázať</string>
     <string name="pref_camera_skinToneEnhancement_title">Vylepšenia tónu pleti</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Zapnúť</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Vypnúť</string>
@@ -46,7 +47,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">Priorita ISO</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Priorita času expozície</string>
     <string name="pref_camera_manual_exp_entry_user_setting">Nastavenie použivateľa</string>
-    <string name="pref_camera_manual_exp_entry_gains_priority">Priorita zvýšenia ISO zariadenia a zjavnej citlivosti na svetlo</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Zisk priority</string>
     <string name="pref_camera_manual_exp_entry_off">Vypnutá</string>
     <string name="pref_camera_manual_wb_title">Manuálne vyváženie bielej</string>
     <string name="pref_camera_manual_wb_entry_color_temperature">Teplota farieb</string>
@@ -107,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatický expozičný bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">Automatický expozičný bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Zapnúť</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Vyp.</string>
     <string name="err_app_unsupport_ae_bracket_code">Automatické posúvanie expozície nie je zatiaľ podporované</string>
     <string name="snapshot_lower_than_video">Rozlíšenie video snímky je menšie ako veľkosť videa. Platí tu obmedzenie na veľkosť obrazu. Vyberte rozlíšenie väčšie alebo rovné aktuálnej veľkosti obrazu.</string>
     <string name="snapshotsize_low_powermode">Zmena veľkosti obrázku nie je podporovaná v režime nízkeho výkonu, momentka videa bude zachytená. Prosím, vyberte režim normálneho výkonu pre zmenu veľkosti obrázku.</string>
@@ -117,22 +119,12 @@
     <string name="pref_camera_hfr_entry_3x">Spomalený pohyb 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Spomalený pohyb 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Spomalený pohyb 240 FPS</string>
-    <string name="pref_camera_hfr_entry_16x">Spomalený pohyb 480 FPS</string>
-    <string name="pref_camera_hfr_entry_32x">Spomalený pohyb 960\u00a0FPS</string>
+    <string name="pref_camera_hfr_entry_16x">Spomalené video 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Vysoká rýchlosť 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Vysoká rýchlosť 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Vysoká rýchlosť 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Vysoká rýchlosť 240 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_480">Vysoká rýchlosť 480 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_960">Vysoká rýchlosť 960\u00a0FPS</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_120">Veľmi spomalený pohyb 120-&gt;240</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_120">Veľmi spomalený pohyb 120-&gt;480</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_240">Veľmi spomalený pohyb 240-&gt;480</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_240">Veľmi spomalený pohyb 240-&gt;960</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_480">Veľmi apomalený pohyb 480-&gt;960</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_480">Veľmi spomalený pohyb 480-&gt;1920</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_960">Veľmi spomalený pohyb 960-&gt;1920</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_960">Veľmi spomalený pohyb 960-&gt;3840</string>
+    <string name="pref_camera_hfr_entry_hsr_480">Vysokorýchlostné video 480 FPS</string>
     <string name="pref_camera_noise_reduction_title">Redukcia šumu</string>
     <string name="pref_camera_noise_reduction_entry_off">Vypnutá</string>
     <string name="pref_camera_noise_reduction_entry_fast">Rýchlo</string>
@@ -251,7 +243,7 @@
     <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Zapnúť</string>
     <string name="pref_camera_auto_hdr_entry_disable">Vypnúť</string>
-    <string name="storage_not_enough">Nie je dostatok miesta na úložisku</string>
+    <string name="on_switch_save_path_to_sdcard">Nedostatok vnútorného ukladacieho priestoru, ukladá sa na kartu SD</string>
     <string name="pref_camera_hdr_mode_title">HDR režim</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Senzor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Multisnímkový HDR</string>
@@ -312,12 +304,9 @@
     <string name="pref_camera2_videosnap_title">Automatická veľkosť obrázku</string>
     <string name="pref_camera2_videosnap_entry_enable">Použiť</string>
     <string name="pref_camera2_videosnap_entry_disable">Zakázať</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">Použiť</string>
-    <string name="pref_camera2_touch_track_focus_off">Nepoužiť</string>
-    <string name="pref_camera2_touch_track_focus_title">Sledovanie zaostrenia dotykom</string>
-    <string name="pref_camera2_multi_cameras_entry_on">Použiť</string>
-    <string name="pref_camera2_multi_cameras_entry_off">Nepoužiť</string>
-    <string name="pref_camera2_multi_cameras_title">Viac fotoaparátov</string>
+    <string name="pref_camera2_trackingfocus_title">Sledovanie zameranie</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Zap.</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Vypnutá</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Najlepší obraz</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Ostrá fotografia</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Sledovanie zameranie</string>
@@ -355,9 +344,9 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">S časozberným nahrávaním môžete premeniť dlhé video na niekoľko-sekundové. Tento efekt platí pre videá, nie pre fotografie.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Umožňuje posunúť doľava alebo doprava, aby ste získali širokú krajinnú fotografiu. Môžete tiež posunúť nahor alebo nadol pre zachytenie vysokých snímok.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster znižuje rozmazanie z trasúcich sa rúk. Môže byť užitočné pri fotografovaní v ťažkých podmienkach.</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">V režime Pro môžete ručne ovládať nastavenia pre ISO, expozíciu, vyváženie bielej a zaostrenie. Budete mať ľahký prístup ku všetkým týmto pokročilým nastaveniam.</string>
-    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">S režimom DeepZoom možete vytvoriť snímku s 2X alebo 4X priblížením.</string>
-    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">S režimom DeepPortrait možete snímky s prednou kamerou zachytiť s rozmazaným pozadím. Rozsah rozostrenia môžete upraviť pomocou posuvníku.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">V režime Pro môžete ručne ovládať nastavenia pre ISO, expozíciu, vyváženie bielej a zaostrenie. Budete mať ľahký prístup ku všetkým týmto pokročilým nastaveniam</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">V režime DeepZoom je možné využiť 2× alebo 4× rozšírené priblíženie.</string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">S režimom DeepPortrait môžete snímať selfies s rozostreným pozadím. Rozsah rozostrenia môžete upraviť pomocou posuvníka.</string>
     <string name="pref_camera2_not_show_again">Nabudúce nezobrazovať</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">Okamžité AEC</string>
@@ -410,64 +399,46 @@
     <string name="pref_camera_zoom_entry_9x">9x</string>
     <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Úsmev/blikanie/detekcia pohľadu</string>
-    <string name="pref_camera2_facial_contour_title">Obrys tváre</string>
-    <string name="pref_camera2_face_detection_mode_title">Režim rozpoznávania tváre</string>
     <string name="pref_camera2_bsgc_entry_enable">Použiť</string>
     <string name="pref_camera2_bsgc_entry_disable">Nepoužiť</string>
-    <string name="pref_camera2_face_detection_entry_simple">Jednoduchý</string>
-    <string name="pref_camera2_face_detection_entry_full">Plný</string>
     <string name="pref_camera2_zsl_title">Nulové oneskorenie uzávierky</string>
     <string name="pref_camera2_zsl_entry_disable">Vypnutá</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Softwérové ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Harvérové ZSL</string>
-    <string name="pref_camera2_videoencoderprofile_title">Kódovací profil</string>
+    <string name="pref_camera2_videoencoderprofile_title">Profil enkodéru</string>
     <string name="pref_camera2_afmode_entry_disable">Vypnúť</string>
     <string name="pref_camera2_afmode_entry_off">Vypnutá</string>
-    <string name="pref_camera2_afmode_entry_continuous_video">Súvislé video</string>
-    <string name="pref_camera2_afmode_entry_continuous_picture">Súvislý obraz</string>
+    <string name="pref_camera2_afmode_entry_continuous_video">Nepetržité video</string>
+    <string name="pref_camera2_afmode_entry_continuous_picture">Sekvenčné snímanie</string>
     <string name="pref_camera2_afmode_entry_edof">Rozšírená hĺbka ostrosti</string>
     <string name="pref_camera2_switch_camera_title">Prepínanie fotoaparátu pomocou ID</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Čiernobiely</string>
     <string name="pref_camera2_initial_camera_entry_front">Predná</string>
-    <string name="pref_camera2_eis_title">Elektronická stabilizácia obrazu videa</string>
-    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 a nastaviť pri pozastavení</string>
+    <string name="pref_camera2_eis_title">Video typu EIS</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 a nastaviť pre pozastavenie</string>
     <string name="pref_camera2_eis_entry_disable">Vypnúť</string>
-    <string name="pref_camera2_fovc_title">Zorné pole kamery videa</string>
+    <string name="pref_camera2_fovc_title">Video typu FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Zapnúť</string>
     <string name="pref_camera2_fovc_entry_disable">Vypnúť</string>
     <string name="pref_camera2_video_hdr_entry_enable">Zapnúť</string>
     <string name="pref_camera2_video_hdr_entry_disable">Vypnúť</string>
     <string name="pref_camera2_picture_format_title">Formát obrázku</string>
-    <string name="pref_camera2_switcher_title">Prepínač fotoaparátov</string>
-    <string name="pref_camera2_switcher_entry_rear">Zadný</string>
-    <string name="pref_camera2_switcher_entry_front">Predná</string>
-    <string name="pref_camera2_force_aux_title">Vynútiť AUX</string>
-    <string name="pref_camera2_force_aux_entry_on">Zapnúť</string>
-    <string name="pref_camera2_force_aux_entry_off">Vypnutá</string>
     <string name="pref_camera2_stats_visualizer_title">Zobrazovač štatistík</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG štatistiky</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE štatistiky</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Hist štatistiky</string>
-    <string name="stats_visualizer_bg_label">Zobrazenie BG grafu</string>
-    <string name="stats_visualizer_be_label">Zobrazenie BE grafu</string>
-    <string name="pref_camera2_capture_mfnr_title">Redukcia šumu multirámca</string>
+    <string name="stats_visualizer_bg_label">Zobrazenie grafu BG</string>
+    <string name="stats_visualizer_be_label">Zobrazenie grafu BE</string>
+    <string name="pref_camera2_capture_mfnr_title">Redukcia šumu Multi-frame</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Zapnúť</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Vypnúť</string>
-    <string name="pref_camera2_fs2_title">Rýchla spúšť</string>
+    <string name="pref_camera2_fs2_title">Rýchla závierka</string>
     <string name="pref_camera2_fs2_entry_enable">Zapnúť</string>
     <string name="pref_camera2_fs2_entry_disable">Vypnúť</string>
-    <string name="pref_camera2_abort_captures_title">Zrušiť zaznamenávanie</string>
+    <string name="pref_camera2_abort_captures_title">Zrušiť obrázok</string>
     <string name="pref_camera2_abort_captures_entry_enable">Zapnúť</string>
     <string name="pref_camera2_abort_captures_entry_disable">Vypnúť</string>
-    <string name="pref_camera_tone_mapping_title">Mapovánie tónov</string>
-    <string name="pref_camera_tone_mapping_entry_dark_boost_offset">Kompenzácia zosilnenia tmavých tónov</string>
-    <string name="pref_camera_tone_mapping_entry_fourth_tone_anchor">Blokáda štvrtého tónu</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">Nastavenie použivateľa</string>
-    <string name="pref_camera_tone_mapping_entry_off">Vypnutá</string>
-    <string name="pref_multi_camera_hal_zsl_title">HAL-ZSL</string>
-    <string name="pref_multi_camera_picturesize1_title">Veľkosť obrázka\u00a01</string>
-    <string name="pref_multi_camera_picturesize2_title">veľkosť obrázka\u00a02</string>
-    <string name="pref_multi_camera_picturesize3_title">veľkosť obrázka\u00a03</string>
-    <string name="lock_af_ae_label">Zámok AE/AF</string>
 </resources>

@@ -101,7 +101,12 @@
         <item quantity="one">1 segon</item>
         <item quantity="other">%d segons</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">So en compte enrera</string>
+    <string name="pref_camera_savepath_title">Emmagatzematge</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telèfon</string>
+    <string name="pref_camera_savepath_entry_1">Targeta SD</string>
     <string name="setting_off">Desactivat</string>
     <string name="setting_on">Activat</string>
     <string name="pref_video_quality_title">Qualitat de vídeo</string>
@@ -169,6 +174,8 @@
     <string name="disable_NR_during_SeeMore">SeeMore deshabilitarà la reducció de soroll.</string>
     <string name="pref_exposure_title">Exposició</string>
     <string name="pref_exposure_label">EXPOSICIÓ</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">CÀMERA FRONTAL</string>
     <string name="pref_camera_id_label_front">CÀMERA POSTERIOR</string>
@@ -278,6 +285,7 @@
     <string name="cannot_load_image">No es pot carregar la imatge!</string>
     <string name="switch_photo_filmstrip">Visualització de tira de pel·lícula</string>
     <string name="setting_wallpaper">S\'està establint el fons de pantalla</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>

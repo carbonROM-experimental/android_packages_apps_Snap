@@ -34,22 +34,22 @@
     <string name="details">Podrobnosti</string>
     <string name="close">Zavřít</string>
     <plurals name="number_of_items_selected">
-        <item quantity="one">%1$d vybrán</item>
-        <item quantity="few">%1$d vybrány</item>
-        <item quantity="many">%1$d vybraných</item>
-        <item quantity="other">%1$d vybraných</item>
+        <item quantity="one">Vybráno: %1$d</item>
+        <item quantity="few">Vybráno: %1$d</item>
+        <item quantity="many">Vybráno: %1$d</item>
+        <item quantity="other">Vybráno: %1$d</item>
     </plurals>
     <plurals name="number_of_albums_selected">
-        <item quantity="one">%1$d vybráno</item>
-        <item quantity="few">%1$d vybrány</item>
-        <item quantity="many">%1$d vybraných</item>
-        <item quantity="other">%1$d vybraných</item>
+        <item quantity="one">Vybráno: %1$d</item>
+        <item quantity="few">Vybráno: %1$d</item>
+        <item quantity="many">Vybráno: %1$d</item>
+        <item quantity="other">Vybráno: %1$d</item>
     </plurals>
     <plurals name="number_of_groups_selected">
-        <item quantity="one">%1$d vybrána</item>
-        <item quantity="few">%1$d vybrány</item>
-        <item quantity="many">%1$d vybraných</item>
-        <item quantity="other">%1$d vybraných</item>
+        <item quantity="one">Vybráno: %1$d</item>
+        <item quantity="few">Vybráno: %1$d</item>
+        <item quantity="many">Vybráno: %1$d</item>
+        <item quantity="other">Vybráno: %1$d</item>
     </plurals>
     <string name="show_on_map">Zobrazit na mapě</string>
     <string name="rotate_left">Otočit doleva</string>
@@ -106,12 +106,17 @@
     <string name="pref_camera_location_label">POLOHA</string>
     <string name="pref_camera_timer_title">Časovač odpočítávání</string>
     <plurals name="pref_camera_timer_entry">
-        <item quantity="one">1 s</item>
-        <item quantity="few">%d s</item>
-        <item quantity="many">%d s</item>
-        <item quantity="other">%d s</item>
+        <item quantity="one">1 sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="other">%d sekund</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Zvuk při odpočtu</string>
+    <string name="pref_camera_savepath_title">Úložiště</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">SD karta</string>
     <string name="setting_off">Vypnuto</string>
     <string name="setting_on">Zapnuto</string>
     <string name="pref_video_quality_title">Kvalita videa</string>
@@ -179,6 +184,8 @@
     <string name="disable_NR_during_SeeMore">SeeMore zakáže potlačení šumu.</string>
     <string name="pref_exposure_title">Expozice</string>
     <string name="pref_exposure_label">EXPOZICE</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">PŘEDNÍ FOTOAPARÁT</string>
     <string name="pref_camera_id_label_front">ZADNÍ FOTOAPARÁT</string>
@@ -288,6 +295,7 @@
     <string name="cannot_load_image">Obrázek nelze načíst!</string>
     <string name="switch_photo_filmstrip">Zobrazení filmového pásu</string>
     <string name="setting_wallpaper">Nastavování tapety</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>

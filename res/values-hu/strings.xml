@@ -102,6 +102,10 @@
         <item quantity="other">%d másodperc</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Hangjelzéssel</string>
+    <string name="pref_camera_savepath_title">Tároló</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">SD-kártya</string>
     <string name="setting_off">Ki</string>
     <string name="setting_on">Be</string>
     <string name="pref_video_quality_title">Videó minősége</string>
@@ -202,7 +206,6 @@
     <string name="effect_silly_faces">BOLONDOS ARCOK</string>
     <string name="effect_background">HÁTTÉR</string>
     <string name="accessibility_shutter_button">Exponálógomb</string>
-    <string name="accessibility_exit_best_mode_button">Kilépés a legjobb fotó módból</string>
     <string name="accessibility_menu_button">Menügomb</string>
     <string name="accessibility_mode_picker">Kamera, videó vagy panoráma kiválasztása</string>
     <string name="accessibility_check_box">%1$s jelölőnégyzet</string>
@@ -278,6 +281,7 @@
     <string name="cannot_load_image">Nem sikerült betölteni a képet!</string>
     <string name="switch_photo_filmstrip">Filmszalagnézet</string>
     <string name="setting_wallpaper">Háttérkép beállítása</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
@@ -285,29 +289,28 @@
     <string name="initial_recording_seconds">0:00</string>
     <string name="makeup_video_size_limit">Smink csak a VGA méretű videók rögzítésekor működik.</string>
     <string name="pref_camera2_category_system">Rendszer</string>
-    <string name="pref_camera2_restore_default">Alapértékek visszaállítása</string>
-    <string name="pref_camera2_restore_default_hint">A kamera beállításai alaphelyzetbe kerülnek vissza</string>
+    <string name="pref_camera2_restore_default">Alapértelmezés visszaállítása</string>
     <plurals name="save_best_dialog_content">
-        <item quantity="one">10-ből %1$d kép mentésre kerül és a többi törlődik</item>
-        <item quantity="other">10-ből %1$d kép mentésre kerül és a többi törlődik</item>
+        <item quantity="one">10-ből %1$d kép mentődni fog, a többi pedi törlődni</item>
+        <item quantity="other">10-ből %1$d kép mentődni fog, a többi pedi törlődni</item>
     </plurals>
     <string name="save_best_dialog_title">Menti a kijelölt képeket?</string>
     <string name="save_best_dialog_positive_bt">OK</string>
-    <string name="save_best_dialog_native_bt">Mégse</string>
+    <string name="save_best_dialog_native_bt">Mégsem</string>
     <plurals name="save_best_image_toast">
-        <item quantity="one">10-ből %1$d kép elmentve.</item>
-        <item quantity="other">10-ből %1$d kép elmentve.</item>
+        <item quantity="one">10-ből %1$d kép mentve.</item>
+        <item quantity="other">10-ből %1$d kép mentve.</item>
     </plurals>
-    <string name="dialog_do_not_show">Ne jelenjen meg többet</string>
-    <string name="delete_best_dialog_title">Törli az összeset?</string>
-    <string name="delete_best_dialog_content">Biztosan törli mind a 10 fényképet?</string>
-    <string name="delete_best_dialog_native_bt">Mégse</string>
+    <string name="dialog_do_not_show">Ne jelenjen meg újra</string>
+    <string name="delete_best_dialog_title">Összes törlése?</string>
+    <string name="delete_best_dialog_content">Biztosan törölni szeretné mind a 10 képet?</string>
+    <string name="delete_best_dialog_native_bt">Mégsem</string>
     <string name="delete_best_dialog_positive_bt">Törlés</string>
-    <string name="delete_all_best_dialog_title">Törli az összeset?</string>
-    <string name="delete_all_best_dialog_content">Biztosan törli az összes képet?</string>
-    <string name="delete_all_best_dialog_native_bt">Mégse</string>
-    <string name="delete_all_best_dialog_positive_bt">Az összes törlése</string>
-    <string name="overflow_best_item1">Az összes mentése</string>
-    <string name="overflow_best_item2">Az összes törlése</string>
+    <string name="delete_all_best_dialog_title">Összes törlése?</string>
+    <string name="delete_all_best_dialog_content">Biztosan törölni szeretné az összes képet?</string>
+    <string name="delete_all_best_dialog_native_bt">Mégsem</string>
+    <string name="delete_all_best_dialog_positive_bt">Összes törlése</string>
+    <string name="overflow_best_item1">Összes mentése</string>
+    <string name="overflow_best_item2">Összes törlése</string>
     <string name="settings_title">Beállítások</string>
 </resources>

@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@
     <string name="pref_camera_videoencoder_title">Κωδικοποιητής βίντεο</string>
     <string name="pref_camera_videoencoder_dialogtitle">Κωδικοποιητής βίντεο</string>
     <string name="pref_camera_audioencoder_title">Κωδικοποιητής ήχου</string>
+    <string name="pref_camera_skinToneEnhancement_default">απενεργοποίηση</string>
     <string name="pref_camera_skinToneEnhancement_title">Βελτίωση τόνου δέρματος</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Ενεργοποίηση</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Απενεργοποίηση</string>
@@ -107,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing αυτόματης έκθεσης</string>
     <string name="pref_camera_ae_bracket_hdr_title">Bracketing αυτόματης έκθεσης</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Ενεργό</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Απενεργοποιημένο</string>
     <string name="err_app_unsupport_ae_bracket_code">Το Bracketing ΑΕ δεν υποστηρίζεται ακόμη</string>
     <string name="snapshot_lower_than_video">Το μέγεθος στιγμιότυπου βίντεο είναι μικρότερο από το μέγεθος βίντεο, κλείδωμα στο μέγεθος βίντεο. Παρακαλώ επιλέξτε ένα μέγεθος μεγαλύτερο ή ίσο με το τρέχον μέγεθος βίντεο.</string>
     <string name="snapshotsize_low_powermode">Δεν υποστηρίζεται η αλλαγή μεγέθους φωτογραφίας κατά την λειτουργία Χαμηλής ισχύος, θα ληφθεί στιγμιότυπο στο μέγεθος του βίντεο. Παρακαλώ επιλέξτε την λειτουργία Κανονικής ισχύος για να μπορείτε να αλλάξετε το μέγεθος της εικόνας.</string>
@@ -118,21 +120,11 @@
     <string name="pref_camera_hfr_entry_4x">Αργή κίνηση 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Αργή κίνηση 240 FPS</string>
     <string name="pref_camera_hfr_entry_16x">Αργή κίνηση 480 FPS</string>
-    <string name="pref_camera_hfr_entry_32x">Αργή κίνηση 960 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Υψηλή ταχύτητα 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Υψηλή ταχύτητα 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Υψηλή ταχύτητα 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Υψηλή ταχύτητα 240 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_480">Υψηλή ταχύτητα 480 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_960">Υψηλή ταχύτητα 960 FPS</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_120">Super SloMo 120-&gt;240</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_120">Super SloMo 120-&gt;480</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_240">Super SloMo 240-&gt;480</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_240">Super SloMo 240-&gt;960</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_480">Super SloMo 480-&gt;960</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_480">Super SloMo 480-&gt;1920</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_960">Super SloMo 960-&gt;1920</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_960">Super SloMo 960-&gt;3840</string>
     <string name="pref_camera_noise_reduction_title">Μείωση θορύβου</string>
     <string name="pref_camera_noise_reduction_entry_off">Ανενεργή</string>
     <string name="pref_camera_noise_reduction_entry_fast">Γρήγορη</string>
@@ -251,7 +243,7 @@
     <string name="pref_camera_auto_hdr_title">Αυτόματο HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Ενεργό</string>
     <string name="pref_camera_auto_hdr_entry_disable">Ανενεργό</string>
-    <string name="storage_not_enough">Ο χώρος αποθήκευσης δεν είναι αρκετός</string>
+    <string name="on_switch_save_path_to_sdcard">Ο εσωτερικός χώρος αποθήκευσης δεν επαρκεί, αλλαγή χώρου αποθήκευσης σε κάρτα SD</string>
     <string name="pref_camera_hdr_mode_title">Λειτουργία HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">HDR αισθητήρα</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR πολλαπλών καρέ</string>
@@ -312,12 +304,9 @@
     <string name="pref_camera2_videosnap_title">Αυτόματο μέγεθος στιγμιότυπου οθόνης</string>
     <string name="pref_camera2_videosnap_entry_enable">Ενεργό</string>
     <string name="pref_camera2_videosnap_entry_disable">Ανενεργό</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">Ενεργό</string>
-    <string name="pref_camera2_touch_track_focus_off">Ανενεργό</string>
-    <string name="pref_camera2_touch_track_focus_title">Εστίαση με αφή</string>
-    <string name="pref_camera2_multi_cameras_entry_on">Ενεργό</string>
-    <string name="pref_camera2_multi_cameras_entry_off">Ανενεργό</string>
-    <string name="pref_camera2_multi_cameras_title">Πολλαπλές κάμερες</string>
+    <string name="pref_camera2_trackingfocus_title">Παρακολούθηση εστίασης</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Ενεργή</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Ανενεργή</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Βέλτιστη εικόνα</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Σταθερή φωτογραφία</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Παρακολούθηση εστίασης</string>
@@ -410,12 +399,8 @@
     <string name="pref_camera_zoom_entry_9x">9x</string>
     <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Ανίχνευση χαμόγελου/κλεισίματος ματιού/βλέμματος</string>
-    <string name="pref_camera2_facial_contour_title">Περίγραμμα προσώπου</string>
-    <string name="pref_camera2_face_detection_mode_title">Λειτουργία εντοπισμού προσώπου</string>
     <string name="pref_camera2_bsgc_entry_enable">Ενεργό</string>
     <string name="pref_camera2_bsgc_entry_disable">Ανενεργό</string>
-    <string name="pref_camera2_face_detection_entry_simple">Απλή</string>
-    <string name="pref_camera2_face_detection_entry_full">Πλήρης</string>
     <string name="pref_camera2_zsl_title">Μηδενική καθυστέρηση κλείστρου</string>
     <string name="pref_camera2_zsl_entry_disable">Ανενεργή</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL λογισμικού</string>
@@ -431,7 +416,9 @@
     <string name="pref_camera2_initial_camera_entry_mono">Μονόχρωμο</string>
     <string name="pref_camera2_initial_camera_entry_front">Μπροστινή</string>
     <string name="pref_camera2_eis_title">EIS βίντεο</string>
-    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 και ορισμός κατά την παύση</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 και ενεργοποίηση όταν βρίσκεται σε παύση</string>
     <string name="pref_camera2_eis_entry_disable">Ανενεργός</string>
     <string name="pref_camera2_fovc_title">FOVC βίντεο</string>
     <string name="pref_camera2_fovc_entry_enable">Ενεργός</string>
@@ -439,35 +426,15 @@
     <string name="pref_camera2_video_hdr_entry_enable">Ενεργός</string>
     <string name="pref_camera2_video_hdr_entry_disable">Ανενεργός</string>
     <string name="pref_camera2_picture_format_title">Τύπος εικόνας</string>
-    <string name="pref_camera2_switcher_title">Εναλλαγή κάμερας</string>
-    <string name="pref_camera2_switcher_entry_rear">Πίσω</string>
-    <string name="pref_camera2_switcher_entry_front">Μπροστινή</string>
-    <string name="pref_camera2_force_aux_title">Εξαναγκασμός AUX</string>
-    <string name="pref_camera2_force_aux_entry_on">Ενεργό</string>
-    <string name="pref_camera2_force_aux_entry_off">Ανενεργή</string>
     <string name="pref_camera2_stats_visualizer_title">Απεικόνιση στατιστικών</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Στατιστικά BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Στατιστικά BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Στατιστικά Hist</string>
-    <string name="stats_visualizer_bg_label">Προβολή γραφήματος BG</string>
-    <string name="stats_visualizer_be_label">Προβολή γραφήματος BE</string>
     <string name="pref_camera2_capture_mfnr_title">Μείωση θορύβου πολλαπλών καρέ</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Ενεργός</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Ανενεργός</string>
-    <string name="pref_camera2_fs2_title">Γρήγορο κλείστρο</string>
     <string name="pref_camera2_fs2_entry_enable">Ενεργός</string>
     <string name="pref_camera2_fs2_entry_disable">Ανενεργός</string>
-    <string name="pref_camera2_abort_captures_title">Ακύρωση λήψεων</string>
     <string name="pref_camera2_abort_captures_entry_enable">Ενεργός</string>
     <string name="pref_camera2_abort_captures_entry_disable">Ανενεργός</string>
-    <string name="pref_camera_tone_mapping_title">Χαρτογράφηση τόνου</string>
-    <string name="pref_camera_tone_mapping_entry_dark_boost_offset">Μετατόπιση σκοτεινής ενίσχυσης</string>
-    <string name="pref_camera_tone_mapping_entry_fourth_tone_anchor">Άγκυρα τέταρτου τόνου</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">Ρύθμιση χρήστη</string>
-    <string name="pref_camera_tone_mapping_entry_off">Ανενεργή</string>
-    <string name="pref_multi_camera_hal_zsl_title">HAL ZSL</string>
-    <string name="pref_multi_camera_picturesize1_title">Μέγεθος εικόνας 1</string>
-    <string name="pref_multi_camera_picturesize2_title">Μέγεθος εικόνας 2</string>
-    <string name="pref_multi_camera_picturesize3_title">Μέγεθος εικόνας 3</string>
-    <string name="lock_af_ae_label">Κλείδωμα ΑΕ/AF</string>
 </resources>

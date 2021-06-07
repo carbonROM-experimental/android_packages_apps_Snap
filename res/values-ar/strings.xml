@@ -20,14 +20,6 @@
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">تعيين الصورة كـ</string>
     <string name="delete">حذف</string>
-    <plurals name="delete_selection">
-        <item quantity="zero">حذف العناصر المحددة؟</item>
-        <item quantity="one">حذف العنصر المحدد؟</item>
-        <item quantity="two">حذف العناصر المحددة؟</item>
-        <item quantity="few">حذف العناصر المحددة؟</item>
-        <item quantity="many">حذف العناصر المحددة؟</item>
-        <item quantity="other">حذف العناصر المحددة؟</item>
-    </plurals>
     <string name="share">مشاركة</string>
     <string name="share_panorama">مشاركة البانوراما</string>
     <string name="share_as_photo">مشاركة كصورة</string>
@@ -35,30 +27,6 @@
     <string name="undo">تراجع</string>
     <string name="details">التفاصيل</string>
     <string name="close">إغلاق</string>
-    <plurals name="number_of_items_selected">
-        <item quantity="zero">تم تحديد %1$d</item>
-        <item quantity="one">تم تحديد %1$d</item>
-        <item quantity="two">تم تحديد %1$d</item>
-        <item quantity="few">تم تحديد %1$d</item>
-        <item quantity="many">تم تحديد %1$d</item>
-        <item quantity="other">تم تحديد %1$d</item>
-    </plurals>
-    <plurals name="number_of_albums_selected">
-        <item quantity="zero">تم تحديد %1$d</item>
-        <item quantity="one">تم تحديد %1$d</item>
-        <item quantity="two">تم تحديد %1$d</item>
-        <item quantity="few">تم تحديد %1$d</item>
-        <item quantity="many">تم تحديد %1$d</item>
-        <item quantity="other">تم تحديد %1$d</item>
-    </plurals>
-    <plurals name="number_of_groups_selected">
-        <item quantity="zero">‏تم تحديد %1$d</item>
-        <item quantity="one">‏تم تحديد %1$d</item>
-        <item quantity="two">‏تم تحديد %1$d</item>
-        <item quantity="few">‏تم تحديد %1$d</item>
-        <item quantity="many">‏تم تحديد %1$d</item>
-        <item quantity="other">‏تم تحديد %1$d</item>
-    </plurals>
     <string name="show_on_map">عرض على الخريطة</string>
     <string name="rotate_left">تدوير لليسار</string>
     <string name="rotate_right">تدوير لليمين</string>
@@ -99,8 +67,6 @@
     <string name="camera_error_title">خطأ في الكاميرا</string>
     <string name="cannot_connect_camera">يتعذر الاتصال بالكاميرا.</string>
     <string name="camera_disabled">تم تعطيل الكاميرا بسبب سياسات الأمان.</string>
-    <string name="error_permissions">لا يشتمل التطبيق على أذونات مهمة للتشغيل. الرجاء التحقق من إعدادات أذوناتك.</string>
-    <string name="dialog_dismiss">تجاهل</string>
     <string name="wait">الرجاء الانتظار\u2026</string>
     <string name="no_storage" product="default">‏أدرج بطاقة SD قبل استخدام الكاميرا.</string>
     <string name="preparing_sd" product="default">‏جارٍ تحضير بطاقة SD…</string>
@@ -110,17 +76,8 @@
     <string name="pref_camera_id_title">اختيار كاميرا</string>
     <string name="pref_camera_id_entry_back">الخلفية</string>
     <string name="pref_camera_id_entry_front">الأمامية</string>
-    <string name="pref_camera_recordlocation_title">موقع GPS</string>
     <string name="pref_camera_location_label">الموقع</string>
     <string name="pref_camera_timer_title">موقّت العد التنازلي</string>
-    <plurals name="pref_camera_timer_entry">
-        <item quantity="zero">%d ثانية</item>
-        <item quantity="one">1 ثانية</item>
-        <item quantity="two">%d ثواني</item>
-        <item quantity="few">%d ثواني</item>
-        <item quantity="many">%d ثواني</item>
-        <item quantity="other">%d ثواني</item>
-    </plurals>
     <string name="pref_camera_timer_sound_title">صفير أثناء العد التنازلي</string>
     <string name="setting_off">إيقاف</string>
     <string name="setting_on">تشغيل</string>
@@ -178,15 +135,6 @@
     <string name="pref_camera_countdown_label_ten">10 ثوانٍ</string>
     <string name="pref_camera_countdown_label_fifteen">15 ثانية</string>
     <string name="not_selectable_in_scene_mode">لا يمكن تحديده في وضع المشهد.</string>
-    <string name="HDR_disable_continuous_shot">تمكين HDR سيعطل اللقطة المستمرة.</string>
-    <string name="advanced_capture_disable_continuous_shot">تمكين اللقطة المتقدمة سيعطل اللقطة المستمرة.</string>
-    <string name="video_quality_4k_disable_IS">جودة الفيديو 4K ستعطل ثبات الصورة.</string>
-    <string name="video_quality_4k_disable_SeeMore">لا يمكن تفعيل SeeMore في وضع فيديو 4k.</string>
-    <string name="disable_CDS_during_HighQualityNoiseReduction">تقليل الضوضاء عالي الجودة سيعطل CDS.</string>
-    <string name="disable_TNR_during_HighQualityNoiseReduction">تقليل الضوضاء عالي الجودة سيعطل NTR.</string>
-    <string name="disable_CDS_during_SeeMore">SeeMore سيعطل CDS.</string>
-    <string name="disable_TNR_during_SeeMore">SeeMore سيعطل TNR.</string>
-    <string name="disable_NR_during_SeeMore">SeeMore سيعطل تقليل الضوضاء.</string>
     <string name="pref_exposure_title">التعرض للضوء</string>
     <string name="pref_exposure_label">التعرض للضوء</string>
     <string name="pref_camera_hdr_label">نطاق عالي الديناميكية</string>
@@ -222,7 +170,6 @@
     <string name="effect_silly_faces">وجوه مضحكة</string>
     <string name="effect_background">الخلفية</string>
     <string name="accessibility_shutter_button">الغالق</string>
-    <string name="accessibility_exit_best_mode_button">الخروج من وضع أفضل صورة</string>
     <string name="accessibility_menu_button">زر القائمة</string>
     <string name="accessibility_mode_picker">محدّد الكاميرا أو الفيديو أو البانوراما</string>
     <string name="accessibility_check_box">‏مربع اختيار %1$s</string>
@@ -298,40 +245,6 @@
     <string name="cannot_load_image">لا يمكن تحميل الصورة!</string>
     <string name="switch_photo_filmstrip">عرض شريط الصور</string>
     <string name="setting_wallpaper">جارٍ تعيين الخلفية</string>
-    <string name="remaining_photos_format">%d متبقية</string>
-    <string name="makeup_video_size_limit">الفيديو التجميلي يعمل فقط في حجم VGA في تسجيل الفيديو.</string>
-    <string name="pref_camera2_category_system">النظام</string>
-    <string name="pref_camera2_restore_default">استعادة الإعدادات الافتراضية</string>
-    <string name="pref_camera2_restore_default_hint">ستتم استعادة إعدادات الكاميرا إلى الإعدادات الافتراضية</string>
-    <plurals name="save_best_dialog_content">
-        <item quantity="zero">سيتم حفظ %1$d من 10 صور وسيتم حذف البقية</item>
-        <item quantity="one">سيتم حفظ %1$d من 10 صور وسيتم حذف البقية</item>
-        <item quantity="two">سيتم حفظ %1$d من 10 صور وسيتم حذف البقية</item>
-        <item quantity="few">سيتم حفظ %1$d من 10 صور وسيتم حذف البقية</item>
-        <item quantity="many">سيتم حفظ %1$d من 10 صور وسيتم حذف البقية</item>
-        <item quantity="other">سيتم حفظ %1$d من 10 صور وسيتم حذف البقية</item>
-    </plurals>
-    <string name="save_best_dialog_title">حفظ الصور المحددة؟</string>
     <string name="save_best_dialog_positive_bt">موافق</string>
-    <string name="save_best_dialog_native_bt">إلغاء</string>
-    <plurals name="save_best_image_toast">
-        <item quantity="zero">%1$d من 10 صور تم حفظها.</item>
-        <item quantity="one">%1$d من 10 من الصور تم حفظها.</item>
-        <item quantity="two">%1$d من 10 صور تم حفظها.</item>
-        <item quantity="few">%1$d من 10 من الصور تم حفظها.</item>
-        <item quantity="many">%1$d من 10 صور تم حفظها.</item>
-        <item quantity="other">%1$d من 10 من الصور تم حفظها.</item>
-    </plurals>
-    <string name="dialog_do_not_show">لا تظهر هذا مجدداً</string>
-    <string name="delete_best_dialog_title">حذف الكل؟</string>
-    <string name="delete_best_dialog_content">هل أنت متأكد من أنك تريد حذف الصور العشرة الملتقطة؟</string>
-    <string name="delete_best_dialog_native_bt">إلغاء</string>
     <string name="delete_best_dialog_positive_bt">حذف</string>
-    <string name="delete_all_best_dialog_title">حذف الكل؟</string>
-    <string name="delete_all_best_dialog_content">هل أنت متأكد من أنك تريد حذف كافة الصور؟</string>
-    <string name="delete_all_best_dialog_native_bt">إلغاء</string>
-    <string name="delete_all_best_dialog_positive_bt">حذف الكل</string>
-    <string name="overflow_best_item1">حفظ الكل</string>
-    <string name="overflow_best_item2">حذف الكل</string>
-    <string name="settings_title">الإعدادات</string>
 </resources>

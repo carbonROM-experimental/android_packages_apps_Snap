@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Camera</string>
-    <string name="video_camera_label">Videocamera</string>
+    <string name="video_camera_label">Camcorder</string>
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Foto instellen als</string>
@@ -102,6 +102,9 @@
         <item quantity="other">%d seconden</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Pieptoon bij aftellen</string>
+    <string name="pref_camera_savepath_title">Opslag</string>
+    <string name="pref_camera_savepath_entry_0">Telefoon</string>
+    <string name="pref_camera_savepath_entry_1">SD-kaart</string>
     <string name="setting_off">Uit</string>
     <string name="setting_on">Aan</string>
     <string name="pref_video_quality_title">Videokwaliteit</string>
@@ -202,7 +205,6 @@
     <string name="effect_silly_faces">GEKKE GEZICHTEN</string>
     <string name="effect_background">ACHTERGROND</string>
     <string name="accessibility_shutter_button">Sluiter</string>
-    <string name="accessibility_exit_best_mode_button">Beste-foto-modus afsluiten</string>
     <string name="accessibility_menu_button">Menuknop</string>
     <string name="accessibility_mode_picker">Camera-, video- of panoramakiezer</string>
     <string name="accessibility_check_box">%1$s selectievakje</string>
@@ -282,16 +284,8 @@
     <string name="makeup_video_size_limit">Make-up werkt alleen bij video-opnamen in VGA.</string>
     <string name="pref_camera2_category_system">Systeem</string>
     <string name="pref_camera2_restore_default">Standaardinstellingen herstellen</string>
-    <plurals name="save_best_dialog_content">
-        <item quantity="one">%1$d van de 10 afbeeldingen wordt opgeslagen, de rest wordt verwijderd</item>
-        <item quantity="other">%1$d van de 10 afbeeldingen worden opgeslagen, de rest wordt verwijderd</item>
-    </plurals>
     <string name="save_best_dialog_positive_bt">OK</string>
     <string name="save_best_dialog_native_bt">Annuleren</string>
-    <plurals name="save_best_image_toast">
-        <item quantity="one">%1$d van de 10 afbeeldingen opgeslagen.</item>
-        <item quantity="other">%1$d van de 10 afbeeldingen opgeslagen.</item>
-    </plurals>
     <string name="dialog_do_not_show">Niet opnieuw tonen</string>
     <string name="delete_best_dialog_title">Alles verwijderen?</string>
     <string name="delete_best_dialog_native_bt">Annuleren</string>

@@ -88,5 +88,5 @@
     <string name="pref_camera_shutter_speed_title">Sluitertijd</string>
     <string name="developer_menu_enabled">U hebt de geavanceerde camera-opties ingeschakeld</string>
     <string name="developer_menu_disabled">U hebt de geavanceerde camera-opties uitgeschakeld</string>
-    <string name="pref_camera2_preferences_category_developer">Geavanceerde opties</string>
+    <string name="pref_camera2_preferences_category_developer">Geavanceerde Opties</string>
 </resources>

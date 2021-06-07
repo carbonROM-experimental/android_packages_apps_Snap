@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -238,6 +238,7 @@
     <string name="pref_camera_auto_hdr_title">Auto-HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Inschakelen</string>
     <string name="pref_camera_auto_hdr_entry_disable">Uitschakelen</string>
+    <string name="on_switch_save_path_to_sdcard">Onvoldoende interne opslagruimte, opslaglocatie veranderd naar SD-kaart</string>
     <string name="pref_camera_hdr_mode_title">HDR modus</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-frame HDR</string>
@@ -298,10 +299,9 @@
     <string name="pref_camera2_videosnap_title">Automatische grootte momentopname</string>
     <string name="pref_camera2_videosnap_entry_enable">Inschakelen</string>
     <string name="pref_camera2_videosnap_entry_disable">Uitschakelen</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">Inschakelen</string>
-    <string name="pref_camera2_touch_track_focus_off">Uitschakelen</string>
-    <string name="pref_camera2_multi_cameras_entry_on">Inschakelen</string>
-    <string name="pref_camera2_multi_cameras_entry_off">Uitschakelen</string>
+    <string name="pref_camera2_trackingfocus_title">Focus volgt object</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Aan</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Uit</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Beste foto</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Focus volgt object</string>
     <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
@@ -319,7 +319,6 @@
     <string name="perf_camera2_preferences_category_general">Algemeen</string>
     <string name="perf_camera2_preferences_category_video">Videocamera</string>
     <string name="perf_camera2_preferences_category_system">Systeem</string>
-    <string name="pref_camera2_scene_mode_best_photo_instructional_content">Stelt u in staat om een snelle serie van 10 foto\'s te nemen, waarvan u later de beste kunt kiezen.</string>
     <string name="pref_camera2_not_show_again">Niet opnieuw tonen</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Uitschakelen</string>
@@ -381,15 +380,10 @@
     <string name="pref_camera2_video_hdr_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_video_hdr_entry_disable">Uitgeschakeld</string>
     <string name="pref_camera2_picture_format_title">Bestandsformaat</string>
-    <string name="pref_camera2_switcher_entry_front">Voorzijde</string>
-    <string name="pref_camera2_force_aux_entry_on">Aan</string>
-    <string name="pref_camera2_force_aux_entry_off">Uit</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Uitgeschakeld</string>
     <string name="pref_camera2_fs2_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_fs2_entry_disable">Uitgeschakeld</string>
     <string name="pref_camera2_abort_captures_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_abort_captures_entry_disable">Uitgeschakeld</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">Gebruikersinstelling</string>
-    <string name="pref_camera_tone_mapping_entry_off">Uit</string>
 </resources>

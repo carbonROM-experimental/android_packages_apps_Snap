@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@
     <string name="pref_camera_videoencoder_title">Kodek slike</string>
     <string name="pref_camera_videoencoder_dialogtitle">Kodek slike</string>
     <string name="pref_camera_audioencoder_title">Kodek zvoka</string>
+    <string name="pref_camera_skinToneEnhancement_default">onemogoči</string>
     <string name="pref_camera_skinToneEnhancement_title">Izboljšanje tona kože</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Omogoči</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Onemogoči</string>
@@ -88,14 +89,14 @@
     <string name="pref_selfie_flash_entry_off">Izklopljeno</string>
     <string name="pref_selfie_flash_entry_on">Vklopljeno</string>
     <string name="pref_camera_redeyereduction_title">Zmanjšanje učinka rdečih oči</string>
-    <string name="pref_camera_redeyereduction_entry_enable">Omogočeno</string>
-    <string name="pref_camera_redeyereduction_entry_disable">Onemogočeno</string>
+    <string name="pref_camera_redeyereduction_entry_enable">Omogoči</string>
+    <string name="pref_camera_redeyereduction_entry_disable">Onemogoči</string>
     <string name="pref_camera_selfiemirror_title">Ogledalo samoposnetka</string>
     <string name="pref_camera_selfiemirror_entry_enable">Omogoči</string>
     <string name="pref_camera_selfiemirror_entry_disable">Onemogoči</string>
     <string name="pref_camera_shuttersound_title">Zvok sprožilca</string>
-    <string name="pref_camera_shuttersound_entry_enable">Omogočeno</string>
-    <string name="pref_camera_shuttersound_entry_disable">Onemogočeno</string>
+    <string name="pref_camera_shuttersound_entry_enable">Omogočen</string>
+    <string name="pref_camera_shuttersound_entry_disable">Onemogočen</string>
     <string name="error_app_unsupported_hfr_selection">Počasni posnetek ni podprt ob uporabi ustalitve/časovnega zamika/HDR-a.</string>
     <string name="error_app_unsupported_hfr">Počasni posnetek ni podprt za izbrano ločljivost</string>
     <string name="error_app_unsupported_dis">Ustalitev ni podprta v izbrani ločljivosti videoposnetka. Izberite nižjo ločljivost</string>
@@ -107,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Korektura sam. osvetlitve</string>
     <string name="pref_camera_ae_bracket_hdr_title">Korektura sam. osvetlitve</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Vklopljeno</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Izklopljeno</string>
     <string name="err_app_unsupport_ae_bracket_code">Korektura samodejne osvetlitve še ni podprta</string>
     <string name="snapshot_lower_than_video">Velikost samodejnega posnetka je nižja od velikosti videoposnetka, omejevanje na velikost videoposnetka. Izberite ločljivost višjo ali enako velikosti trenutnega videoposnetka.</string>
     <string name="snapshotsize_low_powermode">Sprememba velikosti slike ni podprta v načinu nizke porabe, posnet bo samodejni posnetek v velikosti videoposnetka. Za spremembo velikosti slike izberete način običajne porabe.</string>
@@ -118,21 +120,11 @@
     <string name="pref_camera_hfr_entry_4x">Počasni posnetek 120 sl./s</string>
     <string name="pref_camera_hfr_entry_8x">Počasni posnetek 240 sl./s</string>
     <string name="pref_camera_hfr_entry_16x">Počasni posnetek 480 sl./s</string>
-    <string name="pref_camera_hfr_entry_32x">Počasni posnetek 960 sl./s</string>
     <string name="pref_camera_hfr_entry_hsr_60">Visoka hitrost 60 sl./s</string>
     <string name="pref_camera_hfr_entry_hsr_90">Visoka hitrost 90 sl./s</string>
     <string name="pref_camera_hfr_entry_hsr_120">Visoka hitrost 120 sl./s</string>
     <string name="pref_camera_hfr_entry_hsr_240">Visoka hitrost 240 sl./s</string>
     <string name="pref_camera_hfr_entry_hsr_480">Visoka hitrost 480 sl./s</string>
-    <string name="pref_camera_hfr_entry_hsr_960">Visoka hitrost 960 sl./s</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_120">Super počas. posnet. 120-&gt;240</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_120">Super počas. posnet. 120-&gt;480</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_240">Super počas. posnet. 240-&gt;480</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_240">Super počas. posnet. 240-&gt;960</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_480">Super počas. posnet. 480-&gt;960</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_480">Super počas. posnet. 480-&gt;1920</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_960">Super počas. posnet. 960-&gt;1920</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_960">Super počas. posnet. 960-&gt;3840</string>
     <string name="pref_camera_noise_reduction_title">Zmanjševanje šuma</string>
     <string name="pref_camera_noise_reduction_entry_off">Izklopljeno</string>
     <string name="pref_camera_noise_reduction_entry_fast">Hitro</string>
@@ -251,7 +243,7 @@
     <string name="pref_camera_auto_hdr_title">Samodejni HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Omogoči</string>
     <string name="pref_camera_auto_hdr_entry_disable">Onemogoči</string>
-    <string name="storage_not_enough">Na pomnilniku ni dovolj prostora</string>
+    <string name="on_switch_save_path_to_sdcard">Na notranjem pomnilniku je premalo prostora, preklop na kartico SD</string>
     <string name="pref_camera_hdr_mode_title">Način HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Tipalo HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Večslikovni HDR</string>
@@ -312,12 +304,9 @@
     <string name="pref_camera2_videosnap_title">Velikost samodejnega posnetka</string>
     <string name="pref_camera2_videosnap_entry_enable">Omogoči</string>
     <string name="pref_camera2_videosnap_entry_disable">Onemogoči</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">Omogoči</string>
-    <string name="pref_camera2_touch_track_focus_off">Onemogoči</string>
-    <string name="pref_camera2_touch_track_focus_title">Ostrenje s sledenjem</string>
-    <string name="pref_camera2_multi_cameras_entry_on">Omogoči</string>
-    <string name="pref_camera2_multi_cameras_entry_off">Onemogoči</string>
-    <string name="pref_camera2_multi_cameras_title">Več kamer</string>
+    <string name="pref_camera2_trackingfocus_title">Ostrenje s sledenjem</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Vklopljeno</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Izklopljeno</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Najboljša slika</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Ostra fotografija</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Ostrenje s sledenjem</string>
@@ -410,18 +399,14 @@
     <string name="pref_camera_zoom_entry_9x">9x</string>
     <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Zaznavanje nasmeha/mežika/strmenja</string>
-    <string name="pref_camera2_facial_contour_title">Obris obraza</string>
-    <string name="pref_camera2_face_detection_mode_title">Način zaznavanja obraza</string>
     <string name="pref_camera2_bsgc_entry_enable">Omogoči</string>
     <string name="pref_camera2_bsgc_entry_disable">Onemogoči</string>
-    <string name="pref_camera2_face_detection_entry_simple">Preprost</string>
-    <string name="pref_camera2_face_detection_entry_full">Poln</string>
     <string name="pref_camera2_zsl_title">Brez zakasnitve sprožilca</string>
     <string name="pref_camera2_zsl_entry_disable">Izklopljeno</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Programski ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Strojni ZSL</string>
     <string name="pref_camera2_videoencoderprofile_title">Profil kodirnika</string>
-    <string name="pref_camera2_afmode_entry_disable">Onemogočeno</string>
+    <string name="pref_camera2_afmode_entry_disable">Onemogočen</string>
     <string name="pref_camera2_afmode_entry_off">Izklopljeno</string>
     <string name="pref_camera2_afmode_entry_continuous_video">Neprekinjen videoposnetek</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Neprekinjena slika</string>
@@ -431,43 +416,22 @@
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Sprednja</string>
     <string name="pref_camera2_eis_title">EIS za videoposnetke</string>
-    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 in nastavi ob premoru</string>
-    <string name="pref_camera2_eis_entry_disable">Onemogočeno</string>
+    <string name="pref_camera2_eis_entry_disable">Onemogočen</string>
     <string name="pref_camera2_fovc_title">FOVC za videoposnetke</string>
-    <string name="pref_camera2_fovc_entry_enable">Omogočeno</string>
-    <string name="pref_camera2_fovc_entry_disable">Onemogočeno</string>
-    <string name="pref_camera2_video_hdr_entry_enable">Omogočeno</string>
-    <string name="pref_camera2_video_hdr_entry_disable">Onemogočeno</string>
+    <string name="pref_camera2_fovc_entry_enable">Omogočen</string>
+    <string name="pref_camera2_fovc_entry_disable">Onemogočen</string>
+    <string name="pref_camera2_video_hdr_entry_enable">Omogočen</string>
+    <string name="pref_camera2_video_hdr_entry_disable">Onemogočen</string>
     <string name="pref_camera2_picture_format_title">Oblika slike</string>
-    <string name="pref_camera2_switcher_title">Preklopnik kamer</string>
-    <string name="pref_camera2_switcher_entry_rear">Zadnja</string>
-    <string name="pref_camera2_switcher_entry_front">Sprednja</string>
-    <string name="pref_camera2_force_aux_title">Vsili AUX</string>
-    <string name="pref_camera2_force_aux_entry_on">Vklopljeno</string>
-    <string name="pref_camera2_force_aux_entry_off">Izklopljeno</string>
     <string name="pref_camera2_stats_visualizer_title">Vizualizator statistik</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG statistike</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE statistike</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Histogram statistik</string>
-    <string name="stats_visualizer_bg_label">Pogled BG histograma</string>
-    <string name="stats_visualizer_be_label">Pogled BE histograma</string>
     <string name="pref_camera2_capture_mfnr_title">Večslikovno zmanjševanje šuma</string>
-    <string name="pref_camera2_capture_mfnr_entry_enable">Omogočeno</string>
-    <string name="pref_camera2_capture_mfnr_entry_disable">Onemogočeno</string>
-    <string name="pref_camera2_fs2_title">Hitri sprožilec</string>
-    <string name="pref_camera2_fs2_entry_enable">Omogočeno</string>
-    <string name="pref_camera2_fs2_entry_disable">Onemogočeno</string>
-    <string name="pref_camera2_abort_captures_title">Prekini zajemanja</string>
-    <string name="pref_camera2_abort_captures_entry_enable">Omogočeno</string>
-    <string name="pref_camera2_abort_captures_entry_disable">Onemogočeno</string>
-    <string name="pref_camera_tone_mapping_title">Mapiranje odtenkov</string>
-    <string name="pref_camera_tone_mapping_entry_dark_boost_offset">Odmik ojačitve črnin</string>
-    <string name="pref_camera_tone_mapping_entry_fourth_tone_anchor">Sidro četrtega odtenka</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">Uporabniške nastavitve</string>
-    <string name="pref_camera_tone_mapping_entry_off">Izklopljeno</string>
-    <string name="pref_multi_camera_hal_zsl_title">HAL ZSL</string>
-    <string name="pref_multi_camera_picturesize1_title">Velikost slike 1</string>
-    <string name="pref_multi_camera_picturesize2_title">Velikost slike 2</string>
-    <string name="pref_multi_camera_picturesize3_title">Velikost slike 3</string>
-    <string name="lock_af_ae_label">AE/AF zapora</string>
+    <string name="pref_camera2_capture_mfnr_entry_enable">Omogočen</string>
+    <string name="pref_camera2_capture_mfnr_entry_disable">Onemogočen</string>
+    <string name="pref_camera2_fs2_entry_enable">Omogočen</string>
+    <string name="pref_camera2_fs2_entry_disable">Onemogočen</string>
+    <string name="pref_camera2_abort_captures_entry_enable">Omogočen</string>
+    <string name="pref_camera2_abort_captures_entry_disable">Onemogočen</string>
 </resources>

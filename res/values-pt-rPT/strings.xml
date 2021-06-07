@@ -101,7 +101,12 @@
         <item quantity="one">1 segundo</item>
         <item quantity="other">%d segundos</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Bip durante a contagem</string>
+    <string name="pref_camera_savepath_title">Armazenamento</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telemóvel</string>
+    <string name="pref_camera_savepath_entry_1">Cartão SD</string>
     <string name="setting_off">Desativado</string>
     <string name="setting_on">Ativado</string>
     <string name="pref_video_quality_title">Qualidade do vídeo</string>
@@ -169,6 +174,8 @@
     <string name="disable_NR_during_SeeMore">O modo SeeMore irá desativar o modo de redução de ruído.</string>
     <string name="pref_exposure_title">Exposição</string>
     <string name="pref_exposure_label">EXPOSIÇÃO</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">CÂMARA FRONTAL</string>
     <string name="pref_camera_id_label_front">CÂMARA POSTERIOR</string>
@@ -278,7 +285,12 @@
     <string name="cannot_load_image">Não é possível carregar a imagem!</string>
     <string name="switch_photo_filmstrip">Vista de película</string>
     <string name="setting_wallpaper">A definir imagem de fundo</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d restante(s)</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">A Maquiagem funciona apenas em tamanhos inferiores a VGA para a gravação de vídeo.</string>
     <string name="pref_camera2_category_system">Sistema</string>
     <string name="pref_camera2_restore_default">Repor predefinições</string>

@@ -83,7 +83,6 @@
     <string name="camera_error_title">Kamerafel</string>
     <string name="cannot_connect_camera">Det går inte att ansluta till kameran.</string>
     <string name="camera_disabled">Kameran har inaktiverats på grund av gällande säkerhetspolicyer.</string>
-    <string name="error_permissions">Appen har inte de kritiska rättigheterna som krävs för att köras. Var vänlig och kontrollera dina rättighetsinställningar.</string>
     <string name="dialog_dismiss">Avvisa</string>
     <string name="wait">Vänta\u2026</string>
     <string name="no_storage" product="default">Sätt i ett SD-kort innan du använder kameran.</string>
@@ -102,6 +101,10 @@
         <item quantity="other">%d sekunder</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Ljudsignal under nedräkningen</string>
+    <string name="pref_camera_savepath_title">Lagring</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Mobil</string>
+    <string name="pref_camera_savepath_entry_1">SD-kort</string>
     <string name="setting_off">Av</string>
     <string name="setting_on">På</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
@@ -158,6 +161,12 @@
     <string name="pref_camera_countdown_label_ten">10 SEKUNDER</string>
     <string name="pref_camera_countdown_label_fifteen">15 SEKUNDER</string>
     <string name="not_selectable_in_scene_mode">Inte valbart i scenläget.</string>
+    <string name="video_quality_4k_disable_IS">4K video-kvalité kommer att stänga av bildstabilisering.</string>
+    <string name="disable_CDS_during_HighQualityNoiseReduction">Högkvalitativ brusreducering kommer att stänga av CDS.</string>
+    <string name="disable_TNR_during_HighQualityNoiseReduction">Högkvalitativ brusreducering kommer att stänga av TNR.</string>
+    <string name="disable_CDS_during_SeeMore">SeeMore kommer att stänga av CDS.</string>
+    <string name="disable_TNR_during_SeeMore">SeeMore kommer att stänga av TNR.</string>
+    <string name="disable_NR_during_SeeMore">SeeMore kommer att stänga av brusreduceringen.</string>
     <string name="pref_exposure_title">Exponering</string>
     <string name="pref_exposure_label">EXPONERING</string>
     <string name="pref_camera_hdr_label">HDR</string>
@@ -269,6 +278,13 @@
     <string name="cannot_load_image">Det går inte att läsa in bilden!</string>
     <string name="switch_photo_filmstrip">Visa som filmremsa</string>
     <string name="setting_wallpaper">Bakgrund anges</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
+    <string name="remaining_photos_format">%d kvar</string>
+    <string name="initial_recording_seconds">00:00</string>
+    <string name="makeup_video_size_limit">Smink fungerar bara under VGA-storlek i videoinspelning.</string>
     <string name="pref_camera2_category_system">System</string>
     <string name="pref_camera2_restore_default">Återställ standardvärden</string>
     <string name="pref_camera2_restore_default_hint">Kamerainställningarna kommer att återställas till standardinställningarna</string>

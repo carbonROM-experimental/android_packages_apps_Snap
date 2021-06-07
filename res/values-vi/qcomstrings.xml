@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@
     <string name="pref_camera_videoencoder_title">Codec video</string>
     <string name="pref_camera_videoencoder_dialogtitle">Codec video</string>
     <string name="pref_camera_audioencoder_title">Codec âm thanh</string>
+    <string name="pref_camera_skinToneEnhancement_default">vô hiệu hoá</string>
     <string name="pref_camera_skinToneEnhancement_title">Tăng cường màu da</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Bật</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Tắt</string>
@@ -107,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Chụp liên tục với độ phơi sáng tự động</string>
     <string name="pref_camera_ae_bracket_hdr_title">Chụp liên tục với độ phơi sáng tự động</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Bật</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Tắt</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing chưa được hỗ trợ</string>
     <string name="snapshot_lower_than_video">Kích thước ảnh chụp nhanh video thấp hơn kích thước video xuất ra. Vui lòng chọn độ phân giải cao hơn hoặc bằng kích thước video hiện tại.</string>
     <string name="snapshotsize_low_powermode">Thay đổi kích thước ảnh không được hỗ trợ trong chế độ nguồn điện thấp, kích thước video sẽ được chụp nhanh lại. Vui lòng chọn chế độ nguồn điện bình thường để cho phép thay đổi kích thước ảnh.</string>
@@ -241,6 +243,7 @@
     <string name="pref_camera_auto_hdr_title">HDR Tự động</string>
     <string name="pref_camera_auto_hdr_entry_enable">Bật</string>
     <string name="pref_camera_auto_hdr_entry_disable">Tắt</string>
+    <string name="on_switch_save_path_to_sdcard">Bộ nhớ trong không đủ, đã chuyển vị trí lưu trữ sang thẻ nhớ</string>
     <string name="pref_camera_hdr_mode_title">Chế độ HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Cảm biến HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR đa khung</string>
@@ -301,10 +304,9 @@
     <string name="pref_camera2_videosnap_title">Kích cỡ ảnh chụp tự động</string>
     <string name="pref_camera2_videosnap_entry_enable">Bật</string>
     <string name="pref_camera2_videosnap_entry_disable">Tắt</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">Bật</string>
-    <string name="pref_camera2_touch_track_focus_off">Tắt</string>
-    <string name="pref_camera2_multi_cameras_entry_on">Bật</string>
-    <string name="pref_camera2_multi_cameras_entry_off">Tắt</string>
+    <string name="pref_camera2_trackingfocus_title">Lấy nét bám đuổi</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Bật</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Tắt</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Hình ảnh tốt nhất</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Ảnh sắc nét</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Lấy nét bám đuổi</string>
@@ -421,20 +423,19 @@
     <string name="pref_camera2_video_hdr_entry_enable">Đã bật</string>
     <string name="pref_camera2_video_hdr_entry_disable">Đã tắt</string>
     <string name="pref_camera2_picture_format_title">Định dạng ảnh</string>
-    <string name="pref_camera2_switcher_entry_front">Trước</string>
-    <string name="pref_camera2_force_aux_entry_on">Bật</string>
-    <string name="pref_camera2_force_aux_entry_off">Tắt</string>
     <string name="pref_camera2_stats_visualizer_title">Thống kê trực quan</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Thống kê BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Thống kê BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Thống kê lịch sử</string>
+    <string name="stats_visualizer_bg_label">Chế độ xem đồ thị BG</string>
+    <string name="stats_visualizer_be_label">Chế độ xem đồ thị BE</string>
     <string name="pref_camera2_capture_mfnr_title">Giảm nhiễu đa khung</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Đã bật</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Đã tắt</string>
+    <string name="pref_camera2_fs2_title">Màn trập nhanh</string>
     <string name="pref_camera2_fs2_entry_enable">Đã bật</string>
     <string name="pref_camera2_fs2_entry_disable">Đã tắt</string>
+    <string name="pref_camera2_abort_captures_title">Hủy bỏ chụp</string>
     <string name="pref_camera2_abort_captures_entry_enable">Đã bật</string>
     <string name="pref_camera2_abort_captures_entry_disable">Đã tắt</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">Cài đặt của người dùng</string>
-    <string name="pref_camera_tone_mapping_entry_off">Tắt</string>
 </resources>

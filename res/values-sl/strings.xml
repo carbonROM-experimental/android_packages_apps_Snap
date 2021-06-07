@@ -95,7 +95,7 @@
     <string name="dialog_dismiss">Opusti</string>
     <string name="wait">Počakajte …</string>
     <string name="no_storage" product="default">Pred uporabo fotoaparata vstavite kartico SD.</string>
-    <string name="preparing_sd" product="default">Pripravljanje kartice SD \u2026</string>
+    <string name="preparing_sd" product="default">Pripravljanje kartice SD …</string>
     <string name="access_sd_fail" product="default">Dostop do kartice SD ni bil mogoč.</string>
     <string name="time_lapse_title">Snemanje s časovnim zamikom</string>
     <string name="capturing">Snemanje</string>
@@ -111,7 +111,12 @@
         <item quantity="few">%d sekunde</item>
         <item quantity="other">%d sekund</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Pisk med odštev.</string>
+    <string name="pref_camera_savepath_title">Mesto za shranjevanje</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">Kartica SD</string>
     <string name="setting_off">Izklopljeno</string>
     <string name="setting_on">Vklopljeno</string>
     <string name="pref_video_quality_title">Kakovost videoposnetkov</string>
@@ -179,6 +184,8 @@
     <string name="disable_NR_during_SeeMore">SeeMore bo onemogočil zmanjševanje šuma.</string>
     <string name="pref_exposure_title">Osvetlitev</string>
     <string name="pref_exposure_label">OSVETLITEV</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">FOTOAPARAT SPREDAJ</string>
     <string name="pref_camera_id_label_front">FOTOAPARAT ZADAJ</string>
@@ -191,7 +198,7 @@
     <string name="pano_dialog_title">Panorama</string>
     <string name="pano_capture_indication">Snemanje panorame</string>
     <string name="pano_dialog_waiting_previous">Čakanje na prejšnjo panoramo</string>
-    <string name="pano_review_saving_indication_str">Shranjevanje \u2026</string>
+    <string name="pano_review_saving_indication_str">Shranjevan. …</string>
     <string name="pano_review_rendering">Upodabljanje panorame</string>
     <string name="tap_to_focus">Dotaknite se za ostrenje.</string>
     <string name="pref_video_effect_title">Učinki</string>
@@ -223,7 +230,7 @@
     <string name="accessibility_switch_to_gcam">Preklopi na visoko kakovost</string>
     <string name="accessibility_review_cancel">Prekliči pregled</string>
     <string name="accessibility_review_ok">Pregled opravljen</string>
-    <string name="accessibility_review_retake">Vnovičen pregled</string>
+    <string name="accessibility_review_retake">Vnovični pregled</string>
     <string name="capital_on">VKLOPLJENO</string>
     <string name="capital_off">IZKLOPLJENO</string>
     <string name="pref_video_time_lapse_frame_interval_off">Izklopljeno</string>
@@ -288,7 +295,12 @@
     <string name="cannot_load_image">Slike ni mogoče naložiti.</string>
     <string name="switch_photo_filmstrip">Pogled filmskega traku</string>
     <string name="setting_wallpaper">Nastavljanje ozadja</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">preostalo %d</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Ličila delujejo samo v VGA načinu pri videoposnetkih.</string>
     <string name="pref_camera2_category_system">Sistem</string>
     <string name="pref_camera2_restore_default">Obnovi privzete</string>

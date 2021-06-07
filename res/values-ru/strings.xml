@@ -96,7 +96,7 @@
     <string name="wait">Подождите…</string>
     <string name="no_storage" product="default">Чтобы использовать камеру, вставьте SD-карту.</string>
     <string name="preparing_sd" product="default">Подготовка SD-карты…</string>
-    <string name="access_sd_fail" product="default">Не удалось получить доступ к SD-карте</string>
+    <string name="access_sd_fail" product="default">Нет доступа к SD-карте</string>
     <string name="time_lapse_title">Режим замедленной съемки</string>
     <string name="capturing">Подождите…</string>
     <string name="pref_camera_id_title">Выбор камеры</string>
@@ -111,7 +111,12 @@
         <item quantity="many">%d секунд</item>
         <item quantity="other">%d секунд</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Сигнал</string>
+    <string name="pref_camera_savepath_title">Память</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Телефон</string>
+    <string name="pref_camera_savepath_entry_1">SD-карта</string>
     <string name="setting_off">Выкл.</string>
     <string name="setting_on">Вкл.</string>
     <string name="pref_video_quality_title">Качество видео</string>
@@ -145,7 +150,7 @@
     <string name="pref_camera_whitebalance_label_daylight">СОЛНЕЧНЫЙ СВЕТ</string>
     <string name="pref_camera_whitebalance_label_fluorescent">ЛАМПА ДНЕВНОГО СВЕТА</string>
     <string name="pref_camera_whitebalance_label_cloudy">ПАСМУРНЫЙ ДЕНЬ</string>
-    <string name="pref_camera_scenemode_title">Режим съемки</string>
+    <string name="pref_camera_scenemode_title">Режим съёмки</string>
     <string name="pref_camera_scenemode_entry_auto">Авто</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
@@ -168,10 +173,10 @@
     <string name="pref_camera_countdown_label_ten">10 СЕКУНД</string>
     <string name="pref_camera_countdown_label_fifteen">15 СЕКУНД</string>
     <string name="not_selectable_in_scene_mode">Недоступно в режиме съемки</string>
-    <string name="HDR_disable_continuous_shot">Включение HDR отключит непрерывную съемку.</string>
-    <string name="advanced_capture_disable_continuous_shot">Расширенные функции отключают непрерывную съемку.</string>
-    <string name="video_quality_4k_disable_IS">Включение видеосъемки с разрешением 4K отключит стабилизацию.</string>
-    <string name="video_quality_4k_disable_SeeMore">Режим SeeMore не может быть включен во время записи 4К видео.</string>
+    <string name="HDR_disable_continuous_shot">Включение HDR отключит непрерывную съёмку.</string>
+    <string name="advanced_capture_disable_continuous_shot">Включение расширенных функций отключит непрерывную съёмку.</string>
+    <string name="video_quality_4k_disable_IS">Включение видеосъёмки с разрешением 4K отключит стабилизацию.</string>
+    <string name="video_quality_4k_disable_SeeMore">Режим SeeMore не может быть включён во время записи 4К видео.</string>
     <string name="disable_CDS_during_HighQualityNoiseReduction">Включение высококачественного шумоподавления отключит функцию CDS.</string>
     <string name="disable_TNR_during_HighQualityNoiseReduction">Включение высококачественного шумоподавления отключит функцию TNR.</string>
     <string name="disable_CDS_during_SeeMore">Режим SeeMore отключит CDS.</string>
@@ -179,6 +184,8 @@
     <string name="disable_NR_during_SeeMore">Режим SeeMore отключит шумоподавление.</string>
     <string name="pref_exposure_title">Экспокоррекция</string>
     <string name="pref_exposure_label">ЭКСПОКОРРЕКЦИЯ</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ПЕРЕДНЯЯ КАМЕРА</string>
     <string name="pref_camera_id_label_front">ЗАДНЯЯ КАМЕРА</string>
@@ -189,7 +196,7 @@
     <string name="pano_dialog_prepare_preview">Подготовка панорамы</string>
     <string name="pano_dialog_panorama_failed">Не удалось сохранить панораму.</string>
     <string name="pano_dialog_title">Панорама</string>
-    <string name="pano_capture_indication">Съемка панорамы</string>
+    <string name="pano_capture_indication">Съёмка панорамы</string>
     <string name="pano_dialog_waiting_previous">Обработка предыдущего файла…</string>
     <string name="pano_review_saving_indication_str">Сохранение…</string>
     <string name="pano_review_rendering">Создание панорамы…</string>
@@ -223,7 +230,7 @@
     <string name="accessibility_switch_to_gcam">Высокое качество</string>
     <string name="accessibility_review_cancel">Отмена</string>
     <string name="accessibility_review_ok">Готово</string>
-    <string name="accessibility_review_retake">Еще раз</string>
+    <string name="accessibility_review_retake">Ещё раз</string>
     <string name="capital_on">ВКЛ.</string>
     <string name="capital_off">ВЫКЛ.</string>
     <string name="pref_video_time_lapse_frame_interval_off">Выкл.</string>
@@ -278,7 +285,7 @@
     <string name="remember_location_prompt">Информация о месте съемки будет автоматически добавлена в описание ваших фотографий и видео.\n\nДоступ к этим данным, а также к самим фотографиям и видео смогут получить и другие приложения.</string>
     <string name="remember_location_no">Нет</string>
     <string name="remember_location_yes">Да</string>
-    <string name="camera_menu_more_label">ДРУГИЕ ОПЦИИ</string>
+    <string name="camera_menu_more_label">ЕЩЁ</string>
     <string name="camera_menu_settings_label">НАСТРОЙКИ</string>
     <string name="create_tiny_planet">Создать круговую панораму</string>
     <string name="saving_tiny_planet">Сохранение…</string>
@@ -288,6 +295,7 @@
     <string name="cannot_load_image">Не удалось загрузить изображение</string>
     <string name="switch_photo_filmstrip">Лента</string>
     <string name="setting_wallpaper">Установка обоев…</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>

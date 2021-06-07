@@ -101,7 +101,12 @@
         <item quantity="one">1 Sekunde</item>
         <item quantity="other">%d Sekunden</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Piepton bei Countdown</string>
+    <string name="pref_camera_savepath_title">Speicher</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">SD-Karte</string>
     <string name="setting_off">Aus</string>
     <string name="setting_on">An</string>
     <string name="pref_video_quality_title">Videoqualität</string>
@@ -169,6 +174,8 @@
     <string name="disable_NR_during_SeeMore">Das Aktivieren von SeeMore deaktiviert die Rauschreduzierung.</string>
     <string name="pref_exposure_title">Belichtung</string>
     <string name="pref_exposure_label">BELICHTUNG</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">FRONTKAMERA</string>
     <string name="pref_camera_id_label_front">HAUPTKAMERA</string>
@@ -278,6 +285,7 @@
     <string name="cannot_load_image">Bild kann nicht geladen werden.</string>
     <string name="switch_photo_filmstrip">Ansicht als Filmstreifen</string>
     <string name="setting_wallpaper">Hintergrund wird festgelegt</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
@@ -300,11 +308,11 @@
     </plurals>
     <string name="dialog_do_not_show">Nicht wieder anzeigen</string>
     <string name="delete_best_dialog_title">Alle löschen?</string>
-    <string name="delete_best_dialog_content">Bist du sicher, dass du alle 10 aufgenommenen Bilder löschen möchtest?</string>
+    <string name="delete_best_dialog_content">Sind Sie sicher, dass Sie alle 10 aufgenommenen Bilder löschen möchten?</string>
     <string name="delete_best_dialog_native_bt">Abbrechen</string>
     <string name="delete_best_dialog_positive_bt">Löschen</string>
     <string name="delete_all_best_dialog_title">Alle löschen?</string>
-    <string name="delete_all_best_dialog_content">Möchtest du wirklich alle Bilder löschen?</string>
+    <string name="delete_all_best_dialog_content">Möchten Sie wirklich alle Bilder löschen?</string>
     <string name="delete_all_best_dialog_native_bt">Abbrechen</string>
     <string name="delete_all_best_dialog_positive_bt">Alle löschen</string>
     <string name="overflow_best_item1">Alle speichern</string>

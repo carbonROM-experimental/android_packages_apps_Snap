@@ -20,8 +20,8 @@
     limitations under the License.
 -->
 <resources>
-    <string name="stats_visualizer_bg_label">BG tampilan grafik</string>
-    <string name="stats_visualizer_be_label">BE tampilan grafik</string>
-    <string name="pref_camera2_fs2_title">Pengambilan cepat</string>
-    <string name="pref_camera2_abort_captures_title">Batalkan tangkapan</string>
+    <string name="stats_visualizer_bg_label">BG圖表視圖</string>
+    <string name="stats_visualizer_be_label">BE圖表視圖</string>
+    <string name="pref_camera2_fs2_title">快速快門</string>
+    <string name="pref_camera2_abort_captures_title">中止擷取</string>
 </resources>

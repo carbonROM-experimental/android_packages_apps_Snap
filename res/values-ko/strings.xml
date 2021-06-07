@@ -97,6 +97,9 @@
         <item quantity="other">%d초</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">카운트다운 신호음 켜기</string>
+    <string name="pref_camera_savepath_title">저장소</string>
+    <string name="pref_camera_savepath_entry_0">휴대전화</string>
+    <string name="pref_camera_savepath_entry_1">SD 카드</string>
     <string name="setting_off">OFF</string>
     <string name="setting_on">ON</string>
     <string name="pref_video_quality_title">동영상 화질</string>
@@ -273,7 +276,12 @@
     <string name="cannot_load_image">이미지를 로드할 수 없습니다.</string>
     <string name="switch_photo_filmstrip">슬라이드 보기</string>
     <string name="setting_wallpaper">배경화면 설정 중</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d 남음</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">메이크업은 영상 촬영 시 VGA 해상도 이하에서만 작동합니다.</string>
     <string name="pref_camera2_category_system">시스템</string>
     <string name="pref_camera2_restore_default">기본 설정 복원</string>

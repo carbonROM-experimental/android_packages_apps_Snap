@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@
     <string name="pref_camera_videoencoder_title">视频编码器</string>
     <string name="pref_camera_videoencoder_dialogtitle">视频编码器</string>
     <string name="pref_camera_audioencoder_title">音频编码器</string>
+    <string name="pref_camera_skinToneEnhancement_default">停用</string>
     <string name="pref_camera_skinToneEnhancement_title">皮肤色调增强</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">启用</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">禁用</string>
@@ -107,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">自动包围曝光</string>
     <string name="pref_camera_ae_bracket_hdr_title">自动包围曝光</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">开启</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">关闭</string>
     <string name="err_app_unsupport_ae_bracket_code">不支持自动包围曝光</string>
     <string name="snapshot_lower_than_video">视频快照的大小低于视频的大小，以视频大小为上限。请选择高于或等于当前视频大小的分辨率。</string>
     <string name="snapshotsize_low_powermode">不支持在低功耗模式下改变图片大小，将捕获视频大小的快照。请选择正常功耗模式以允许改变图片大小。</string>
@@ -118,21 +120,11 @@
     <string name="pref_camera_hfr_entry_4x">120 FPS 慢动作</string>
     <string name="pref_camera_hfr_entry_8x">240 FPS 慢动作</string>
     <string name="pref_camera_hfr_entry_16x">慢动作 480 FPS</string>
-    <string name="pref_camera_hfr_entry_32x">慢动作 960 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">60 FPS 高速</string>
     <string name="pref_camera_hfr_entry_hsr_90">90 FPS 高速</string>
     <string name="pref_camera_hfr_entry_hsr_120">120 FPS 高速</string>
     <string name="pref_camera_hfr_entry_hsr_240">高速 240 帧/秒</string>
     <string name="pref_camera_hfr_entry_hsr_480">高速 480 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_960">高速  960 FPS</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_120">超级慢动作 120-&gt;240</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_120">超级慢动作 120-&gt;480</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_240">超级慢动作 240-&gt;480</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_240">超级慢动作 240-&gt;960</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_480">超级慢动作 480-&gt;960</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_480">超级慢动作 480-&gt;1920</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_960">超级慢动作 960-&gt;1920</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_960">超级慢动作 960-&gt;3840</string>
     <string name="pref_camera_noise_reduction_title">降噪</string>
     <string name="pref_camera_noise_reduction_entry_off">关闭</string>
     <string name="pref_camera_noise_reduction_entry_fast">快速</string>
@@ -251,7 +243,7 @@
     <string name="pref_camera_auto_hdr_title">自动 HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">启用</string>
     <string name="pref_camera_auto_hdr_entry_disable">禁用</string>
-    <string name="storage_not_enough">存储空间不足</string>
+    <string name="on_switch_save_path_to_sdcard">内部存储空间不足，已将存储位置切换到 SD 卡</string>
     <string name="pref_camera_hdr_mode_title">HDR 模式</string>
     <string name="pref_camera_hdr_mode_entry_sensor">传感器 HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">多帧 HDR</string>
@@ -312,12 +304,9 @@
     <string name="pref_camera2_videosnap_title">自动快照大小</string>
     <string name="pref_camera2_videosnap_entry_enable">启用</string>
     <string name="pref_camera2_videosnap_entry_disable">禁用</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">启用</string>
-    <string name="pref_camera2_touch_track_focus_off">禁用</string>
-    <string name="pref_camera2_touch_track_focus_title">触摸跟踪焦距</string>
-    <string name="pref_camera2_multi_cameras_entry_on">启用</string>
-    <string name="pref_camera2_multi_cameras_entry_off">禁用</string>
-    <string name="pref_camera2_multi_cameras_title">多相机</string>
+    <string name="pref_camera2_trackingfocus_title">焦点跟踪</string>
+    <string name="pref_camera2_trackingfocus_entry_on">开</string>
+    <string name="pref_camera2_trackingfocus_entry_off">关闭</string>
     <string name="pref_camera_scenemode_entry_bestpicture">最佳图片</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">锐化照片</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">焦点跟踪</string>
@@ -410,12 +399,8 @@
     <string name="pref_camera_zoom_entry_9x">9x</string>
     <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">微笑／眨眼／注视检测</string>
-    <string name="pref_camera2_facial_contour_title">面部轮廓</string>
-    <string name="pref_camera2_face_detection_mode_title">人脸检测模式</string>
     <string name="pref_camera2_bsgc_entry_enable">启用</string>
     <string name="pref_camera2_bsgc_entry_disable">禁用</string>
-    <string name="pref_camera2_face_detection_entry_simple">简单</string>
-    <string name="pref_camera2_face_detection_entry_full">完整</string>
     <string name="pref_camera2_zsl_title">零快门延迟</string>
     <string name="pref_camera2_zsl_entry_disable">关闭</string>
     <string name="pref_camera2_zsl_entry_app_zsl">软件零延迟快门</string>
@@ -431,7 +416,9 @@
     <string name="pref_camera2_initial_camera_entry_mono">黑白</string>
     <string name="pref_camera2_initial_camera_entry_front">前</string>
     <string name="pref_camera2_eis_title">视频电子防抖（EIS）</string>
-    <string name="pref_camera2_eis_entry_v3_set_when_pause">并在暂停时设置 V3</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 暂停时设置</string>
     <string name="pref_camera2_eis_entry_disable">已禁用</string>
     <string name="pref_camera2_fovc_title">视频场变化（FOVC）</string>
     <string name="pref_camera2_fovc_entry_enable">已启用</string>
@@ -439,35 +426,19 @@
     <string name="pref_camera2_video_hdr_entry_enable">已启用</string>
     <string name="pref_camera2_video_hdr_entry_disable">已禁用</string>
     <string name="pref_camera2_picture_format_title">图片格式</string>
-    <string name="pref_camera2_switcher_title">相机切换器</string>
-    <string name="pref_camera2_switcher_entry_rear">后置摄像头</string>
-    <string name="pref_camera2_switcher_entry_front">前</string>
-    <string name="pref_camera2_force_aux_title">强制 AUX</string>
-    <string name="pref_camera2_force_aux_entry_on">开</string>
-    <string name="pref_camera2_force_aux_entry_off">关闭</string>
     <string name="pref_camera2_stats_visualizer_title">状态可视化</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG 统计</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE 统计</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">直方图统计</string>
-    <string name="stats_visualizer_bg_label">BG 图形视图</string>
-    <string name="stats_visualizer_be_label">BE 图形视图</string>
+    <string name="stats_visualizer_bg_label">BG视图</string>
+    <string name="stats_visualizer_be_label">BE视图</string>
     <string name="pref_camera2_capture_mfnr_title">多帧降噪</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">已启用</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">已禁用</string>
-    <string name="pref_camera2_fs2_title">快速快门</string>
+    <string name="pref_camera2_fs2_title">高速快门</string>
     <string name="pref_camera2_fs2_entry_enable">已启用</string>
     <string name="pref_camera2_fs2_entry_disable">已禁用</string>
-    <string name="pref_camera2_abort_captures_title">中止捕获</string>
+    <string name="pref_camera2_abort_captures_title">取消保存</string>
     <string name="pref_camera2_abort_captures_entry_enable">已启用</string>
     <string name="pref_camera2_abort_captures_entry_disable">已禁用</string>
-    <string name="pref_camera_tone_mapping_title">色调映射</string>
-    <string name="pref_camera_tone_mapping_entry_dark_boost_offset">深色增益偏移</string>
-    <string name="pref_camera_tone_mapping_entry_fourth_tone_anchor">第四色调锚点</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">用户设置</string>
-    <string name="pref_camera_tone_mapping_entry_off">关闭</string>
-    <string name="pref_multi_camera_hal_zsl_title">硬件抽象层零拍摄延迟</string>
-    <string name="pref_multi_camera_picturesize1_title">图片 1 尺寸</string>
-    <string name="pref_multi_camera_picturesize2_title">图片 2 尺寸</string>
-    <string name="pref_multi_camera_picturesize3_title">图片 3 尺寸</string>
-    <string name="lock_af_ae_label">自动曝光/自动对焦锁定</string>
 </resources>

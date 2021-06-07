@@ -96,7 +96,12 @@
     <plurals name="pref_camera_timer_entry">
         <item quantity="other">%d 秒</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">倒數時發出提示音</string>
+    <string name="pref_camera_savepath_title">儲存空間</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">手機</string>
+    <string name="pref_camera_savepath_entry_1">SD 卡</string>
     <string name="setting_off">關</string>
     <string name="setting_on">開</string>
     <string name="pref_video_quality_title">視訊畫質</string>
@@ -164,6 +169,8 @@
     <string name="disable_NR_during_SeeMore">SeeMore 功能將停用降噪。</string>
     <string name="pref_exposure_title">曝光</string>
     <string name="pref_exposure_label">曝光</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">前置鏡頭</string>
     <string name="pref_camera_id_label_front">後置鏡頭</string>
@@ -273,6 +280,7 @@
     <string name="cannot_load_image">無法載入圖片！</string>
     <string name="switch_photo_filmstrip">幻燈片檢視</string>
     <string name="setting_wallpaper">正在設定桌布</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>

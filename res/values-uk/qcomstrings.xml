@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -238,6 +238,7 @@
     <string name="pref_camera_auto_hdr_title">Авто HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Увімкнути</string>
     <string name="pref_camera_auto_hdr_entry_disable">Вимкнути</string>
+    <string name="on_switch_save_path_to_sdcard">Внутрішньої пам\'яті недостатньо, вибрано збереження на SD-карту</string>
     <string name="pref_camera_hdr_mode_title">Режим HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Датчик HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Мультикадровий HDR</string>
@@ -296,10 +297,8 @@
     <string name="pref_camera2_videosnap_title">Автоматичний розмір знімку</string>
     <string name="pref_camera2_videosnap_entry_enable">Увімкнути</string>
     <string name="pref_camera2_videosnap_entry_disable">Вимкнути</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">Увімкнути</string>
-    <string name="pref_camera2_touch_track_focus_off">Вимкнути</string>
-    <string name="pref_camera2_multi_cameras_entry_on">Увімкнути</string>
-    <string name="pref_camera2_multi_cameras_entry_off">Вимкнути</string>
+    <string name="pref_camera2_trackingfocus_title">Фокус відстеження</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Вимкнено</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Найкращий знімок</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Фокус відстеження</string>
     <string name="bestpicture_done">Готово</string>
@@ -356,14 +355,12 @@
     <string name="pref_camera2_video_hdr_entry_enable">Увімкнено</string>
     <string name="pref_camera2_video_hdr_entry_disable">Вимкнено</string>
     <string name="pref_camera2_picture_format_title">Формат зображення</string>
-    <string name="pref_camera2_force_aux_entry_on">Увімк</string>
-    <string name="pref_camera2_force_aux_entry_off">Вимкнено</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Увімкнено</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Вимкнено</string>
+    <string name="pref_camera2_fs2_title">Швидка зйомка</string>
     <string name="pref_camera2_fs2_entry_enable">Увімкнено</string>
     <string name="pref_camera2_fs2_entry_disable">Вимкнено</string>
+    <string name="pref_camera2_abort_captures_title">Відмінити фотографії</string>
     <string name="pref_camera2_abort_captures_entry_enable">Увімкнено</string>
     <string name="pref_camera2_abort_captures_entry_disable">Вимкнено</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">Налаштування користувача</string>
-    <string name="pref_camera_tone_mapping_entry_off">Вимкнено</string>
 </resources>

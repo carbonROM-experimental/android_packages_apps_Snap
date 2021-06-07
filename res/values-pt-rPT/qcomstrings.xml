@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@
     <string name="pref_camera_videoencoder_title">Codec de vídeo</string>
     <string name="pref_camera_videoencoder_dialogtitle">Codec de vídeo</string>
     <string name="pref_camera_audioencoder_title">Codec de áudio</string>
+    <string name="pref_camera_skinToneEnhancement_default">desativar</string>
     <string name="pref_camera_skinToneEnhancement_title">Melhoria do tom de pele</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Ativar</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Desativar</string>
@@ -107,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Exposição Automática por Intervalo (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_title">Exposição Automática por Intervalo (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Ligado</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Desligado</string>
     <string name="err_app_unsupport_ae_bracket_code">AEB ainda não é suportado</string>
     <string name="snapshot_lower_than_video">O tamanho de captura de imagem de vídeo é menor que o tamanho do vídeo, limitado ao tamanho do vídeo. Por favor escolha uma resolução maior ou igual ao tamanho de vídeo atual.</string>
     <string name="snapshotsize_low_powermode">Alterar o tamanho da imagem não é suportado no modo de baixo consumo. Será tirada uma captura com o tamanho do vídeo. Escolha o modo de energia normal para alterar o tamanho da imagem.</string>
@@ -118,21 +120,11 @@
     <string name="pref_camera_hfr_entry_4x">Câmara Lenta 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Câmara Lenta 240 FPS</string>
     <string name="pref_camera_hfr_entry_16x">Câmara lenta a 480 FPS</string>
-    <string name="pref_camera_hfr_entry_32x">Câmara lenta 960 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Elevado Framerate 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Elevado Framerate 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Elevado Framerate 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Elevado Framerate 240 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_480">Alta velocidade a 480 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_960">Elevado framerate 960 FPS</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_120">Super câmara lenta 120-&gt;240 FPS</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_120">Super câmara lenta 120-&gt;480 FPS</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_240">Super câmara lenta 240-&gt;480 FPS</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_240">Super câmara lenta 240-&gt;960 FPS</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_480">Super câmara lenta 480-&gt;960 FPS</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_480">Super câmara lenta 480-&gt;1920 FPS</string>
-    <string name="pref_camera_hfr_entry_2x_ssm_960">Super câmara lenta 960-&gt;1920 FPS</string>
-    <string name="pref_camera_hfr_entry_4x_ssm_960">Super câmara lenta 960-&gt;3840 FPS</string>
     <string name="pref_camera_noise_reduction_title">Redução de ruído</string>
     <string name="pref_camera_noise_reduction_entry_off">Desativada</string>
     <string name="pref_camera_noise_reduction_entry_fast">Rápida</string>
@@ -251,7 +243,7 @@
     <string name="pref_camera_auto_hdr_title">HDR automático</string>
     <string name="pref_camera_auto_hdr_entry_enable">Ativar</string>
     <string name="pref_camera_auto_hdr_entry_disable">Desativar</string>
-    <string name="storage_not_enough">Espaço de armazenamento insuficiente</string>
+    <string name="on_switch_save_path_to_sdcard">O espaço de armazenamento interno não é suficiente. O local de armazenamento foi alterado para o cartão SD</string>
     <string name="pref_camera_hdr_mode_title">Modo HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR multi-frame</string>
@@ -312,12 +304,9 @@
     <string name="pref_camera2_videosnap_title">Tamanho automático do instantâneo</string>
     <string name="pref_camera2_videosnap_entry_enable">Ativar</string>
     <string name="pref_camera2_videosnap_entry_disable">Desativar</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">Ativar</string>
-    <string name="pref_camera2_touch_track_focus_off">Desativar</string>
-    <string name="pref_camera2_touch_track_focus_title">Foco de rastreamento de toque</string>
-    <string name="pref_camera2_multi_cameras_entry_on">Ativar</string>
-    <string name="pref_camera2_multi_cameras_entry_off">Desativar</string>
-    <string name="pref_camera2_multi_cameras_title">Múltiplas câmaras</string>
+    <string name="pref_camera2_trackingfocus_title">Rastreamento de foco</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Ligado</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Desativada</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Melhor imagem</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Foto nítida</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Rastreamento de foco</string>
@@ -410,12 +399,8 @@
     <string name="pref_camera_zoom_entry_9x">9x</string>
     <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Deteção de sorrisos/piscadelas/olhares</string>
-    <string name="pref_camera2_facial_contour_title">Contorno facial</string>
-    <string name="pref_camera2_face_detection_mode_title">Modo de deteção facial</string>
     <string name="pref_camera2_bsgc_entry_enable">Ativar</string>
     <string name="pref_camera2_bsgc_entry_disable">Desativar</string>
-    <string name="pref_camera2_face_detection_entry_simple">Simples</string>
-    <string name="pref_camera2_face_detection_entry_full">Completo</string>
     <string name="pref_camera2_zsl_title">Sem atraso no obturador</string>
     <string name="pref_camera2_zsl_entry_disable">Desativada</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL por software</string>
@@ -431,7 +416,9 @@
     <string name="pref_camera2_initial_camera_entry_mono">Monocromático</string>
     <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
     <string name="pref_camera2_eis_title">Vídeo EIS</string>
-    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 e definir quando pausar</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 e definir quando tiver em pausa</string>
     <string name="pref_camera2_eis_entry_disable">Desativado</string>
     <string name="pref_camera2_fovc_title">Vídeo FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Ativado</string>
@@ -439,35 +426,15 @@
     <string name="pref_camera2_video_hdr_entry_enable">Ativado</string>
     <string name="pref_camera2_video_hdr_entry_disable">Desativado</string>
     <string name="pref_camera2_picture_format_title">Formato da fotografia</string>
-    <string name="pref_camera2_switcher_title">Alterar câmara</string>
-    <string name="pref_camera2_switcher_entry_rear">Traseira</string>
-    <string name="pref_camera2_switcher_entry_front">Frontal</string>
-    <string name="pref_camera2_force_aux_title">Forçar AUX</string>
-    <string name="pref_camera2_force_aux_entry_on">Ligado</string>
-    <string name="pref_camera2_force_aux_entry_off">Desativada</string>
     <string name="pref_camera2_stats_visualizer_title">Visualizador de estatísticas</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estatísticas BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Estatísticas BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Estatísticas Hist</string>
-    <string name="stats_visualizer_bg_label">Visualização gráfica BG</string>
-    <string name="stats_visualizer_be_label">Visualização gráfica BE</string>
     <string name="pref_camera2_capture_mfnr_title">Redução de ruído multi-frame</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Ativado</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Desativado</string>
-    <string name="pref_camera2_fs2_title">Disparo rápido</string>
     <string name="pref_camera2_fs2_entry_enable">Ativado</string>
     <string name="pref_camera2_fs2_entry_disable">Desativado</string>
-    <string name="pref_camera2_abort_captures_title">Abortar a captura</string>
     <string name="pref_camera2_abort_captures_entry_enable">Ativado</string>
     <string name="pref_camera2_abort_captures_entry_disable">Desativado</string>
-    <string name="pref_camera_tone_mapping_title">Mapeamento de tom</string>
-    <string name="pref_camera_tone_mapping_entry_dark_boost_offset">Compensação de aumento de escuridão</string>
-    <string name="pref_camera_tone_mapping_entry_fourth_tone_anchor">Âncora do quarto tom</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">Definição do utilizador</string>
-    <string name="pref_camera_tone_mapping_entry_off">Desativada</string>
-    <string name="pref_multi_camera_hal_zsl_title">HAL ZSL</string>
-    <string name="pref_multi_camera_picturesize1_title">Tamanho da imagem 1</string>
-    <string name="pref_multi_camera_picturesize2_title">Tamanho da imagem 2</string>
-    <string name="pref_multi_camera_picturesize3_title">Tamanho da imagem 3</string>
-    <string name="lock_af_ae_label">Bloqueio AE/AF</string>
 </resources>

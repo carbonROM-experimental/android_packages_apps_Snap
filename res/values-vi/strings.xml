@@ -96,7 +96,12 @@
     <plurals name="pref_camera_timer_entry">
         <item quantity="other">%d giây</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Tiếng bíp khi đếm ngược</string>
+    <string name="pref_camera_savepath_title">Lưu trữ</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Điện thoại</string>
+    <string name="pref_camera_savepath_entry_1">Thẻ SD</string>
     <string name="setting_off">Tắt</string>
     <string name="setting_on">Bật</string>
     <string name="pref_video_quality_title">Chất lượng video</string>
@@ -164,6 +169,8 @@
     <string name="disable_NR_during_SeeMore">SeeMore sẽ tắt giảm nhiễu.</string>
     <string name="pref_exposure_title">Độ phơi sáng</string>
     <string name="pref_exposure_label">ĐỘ PHƠI SÁNG</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">MÁY ẢNH MẶT TRƯỚC</string>
     <string name="pref_camera_id_label_front">MÁY ẢNH MẶT SAU</string>
@@ -273,7 +280,12 @@
     <string name="cannot_load_image">Không thể tải hình ảnh!</string>
     <string name="switch_photo_filmstrip">Chế độ xem cuộn phim</string>
     <string name="setting_wallpaper">Đang đặt hình nền</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d còn lại</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Làm đẹp chỉ hoạt động dưới kích thước VGA trong khi quay video.</string>
     <string name="pref_camera2_category_system">Hệ thống</string>
     <string name="pref_camera2_restore_default">Khôi phục mặc định</string>

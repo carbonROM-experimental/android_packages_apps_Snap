@@ -24,7 +24,7 @@
         <item quantity="one">Usunąć wybrany element?</item>
         <item quantity="few">Usunąć wybrane elementy?</item>
         <item quantity="many">Usunąć wybrane elementy?</item>
-        <item quantity="other">Usunąć wybranych elementów?</item>
+        <item quantity="other">Usunąć wybrane elementy?</item>
     </plurals>
     <string name="share">Udostępnij</string>
     <string name="share_panorama">Udostępnij panoramę</string>
@@ -34,22 +34,22 @@
     <string name="details">Szczegóły</string>
     <string name="close">Zamknij</string>
     <plurals name="number_of_items_selected">
-        <item quantity="one">%1$d wybrany</item>
-        <item quantity="few">%1$d wybrane</item>
-        <item quantity="many">%1$d wybranych</item>
-        <item quantity="other">%1$d wybranych</item>
+        <item quantity="one">Wybrano: %1$d</item>
+        <item quantity="few">Wybrano: %1$d</item>
+        <item quantity="many">Wybrano: %1$d</item>
+        <item quantity="other">Wybrano: %1$d</item>
     </plurals>
     <plurals name="number_of_albums_selected">
-        <item quantity="one">%1$d wybrany</item>
-        <item quantity="few">%1$d wybrane</item>
-        <item quantity="many">%1$d wybranych</item>
-        <item quantity="other">%1$d wybranych</item>
+        <item quantity="one">Wybrano: %1$d</item>
+        <item quantity="few">Wybrano: %1$d</item>
+        <item quantity="many">Wybrano: %1$d</item>
+        <item quantity="other">Wybrano: %1$d</item>
     </plurals>
     <plurals name="number_of_groups_selected">
-        <item quantity="one">%1$d wybrana</item>
-        <item quantity="few">%1$d wybrane</item>
-        <item quantity="many">%1$d wybranych</item>
-        <item quantity="other">%1$d wybranych</item>
+        <item quantity="one">Wybrano: %1$d</item>
+        <item quantity="few">Wybrano: %1$d</item>
+        <item quantity="many">Wybrano: %1$d</item>
+        <item quantity="other">Wybrano: %1$d</item>
     </plurals>
     <string name="show_on_map">Pokaż na mapie</string>
     <string name="rotate_left">Obróć w lewo</string>
@@ -107,11 +107,16 @@
     <string name="pref_camera_timer_title">Samowyzwalacz</string>
     <plurals name="pref_camera_timer_entry">
         <item quantity="one">1 sekunda</item>
-        <item quantity="few">%d sekundy</item>
+        <item quantity="few">%d sekund</item>
         <item quantity="many">%d sekund</item>
         <item quantity="other">%d sekund</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Sygnał odliczania</string>
+    <string name="pref_camera_savepath_title">Pamięć</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">Karta SD</string>
     <string name="setting_off">Wyłączone</string>
     <string name="setting_on">Włączone</string>
     <string name="pref_video_quality_title">Jakość filmu</string>
@@ -179,6 +184,8 @@
     <string name="disable_NR_during_SeeMore">SeeMore spowoduje wyłączenie redukcji szumów.</string>
     <string name="pref_exposure_title">Ekspozycja</string>
     <string name="pref_exposure_label">EKSPOZYCJA</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">PRZEDNI APARAT</string>
     <string name="pref_camera_id_label_front">TYLNY APARAT</string>
@@ -288,7 +295,12 @@
     <string name="cannot_load_image">Nie można wczytać obrazu!</string>
     <string name="switch_photo_filmstrip">Widok taśmy filmowej</string>
     <string name="setting_wallpaper">Ustawiam tapetę</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">Pozostało %d</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">\"Makijaż\" działa tylko w rozmiarze wideo VGA.</string>
     <string name="pref_camera2_category_system">System</string>
     <string name="pref_camera2_restore_default">Przywróć domyślne ustawienia</string>

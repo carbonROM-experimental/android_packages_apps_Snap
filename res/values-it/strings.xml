@@ -101,7 +101,12 @@
         <item quantity="one">1 secondo</item>
         <item quantity="other">%d secondi</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Bip conto alla rov.</string>
+    <string name="pref_camera_savepath_title">Archivio</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telefono</string>
+    <string name="pref_camera_savepath_entry_1">Scheda SD</string>
     <string name="setting_off">OFF</string>
     <string name="setting_on">ON</string>
     <string name="pref_video_quality_title">Qualità video</string>
@@ -169,6 +174,8 @@
     <string name="disable_NR_during_SeeMore">SeeMore disattiverà la riduzione del rumore.</string>
     <string name="pref_exposure_title">Esposizione</string>
     <string name="pref_exposure_label">ESPOSIZIONE</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">FOTOCAMERA ANTERIORE</string>
     <string name="pref_camera_id_label_front">FOTOCAMERA POSTERIORE</string>
@@ -278,6 +285,7 @@
     <string name="cannot_load_image">Impossibile caricare l\'immagine.</string>
     <string name="switch_photo_filmstrip">Visualizzazione sequenza</string>
     <string name="setting_wallpaper">Impostazione dello sfondo</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>

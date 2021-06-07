@@ -101,7 +101,12 @@
         <item quantity="one">1 seconde</item>
         <item quantity="other">%d secondes</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Compte à rebours sonore</string>
+    <string name="pref_camera_savepath_title">Stockage</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Téléphone </string>
+    <string name="pref_camera_savepath_entry_1">Carte SD</string>
     <string name="setting_off">Désactivé</string>
     <string name="setting_on">Activé</string>
     <string name="pref_video_quality_title">Qualité vidéo</string>
@@ -169,6 +174,8 @@
     <string name="disable_NR_during_SeeMore">SeeMore désactivera la réduction du bruit.</string>
     <string name="pref_exposure_title">Exposition</string>
     <string name="pref_exposure_label">EXPOSITION</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">CAMÉRA FRONTALE</string>
     <string name="pref_camera_id_label_front">CAMÉRA ARRIÈRE</string>
@@ -278,7 +285,12 @@
     <string name="cannot_load_image">Impossible de charger l\'image.</string>
     <string name="switch_photo_filmstrip">Pellicule</string>
     <string name="setting_wallpaper">Définition du fond d\'écran en cours…</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d restante(s)</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Le mode maquillage ne fonctionne que pour les enregistrements vidéos de taille VGA.</string>
     <string name="pref_camera2_category_system">Système</string>
     <string name="pref_camera2_restore_default">Rétablir les paramètres par défaut</string>

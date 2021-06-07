@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2020 The LineageOS Project
+    Copyright (C) 2017-2018 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@
     <string name="pref_camera_videoencoder_title">Kodek wideo</string>
     <string name="pref_camera_videoencoder_dialogtitle">Kodek wideo</string>
     <string name="pref_camera_audioencoder_title">Kodek audio</string>
+    <string name="pref_camera_skinToneEnhancement_default">wyłącz</string>
     <string name="pref_camera_skinToneEnhancement_title">Poprawa koloru skóry</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Włącz</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Wyłącz</string>
@@ -107,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Autobracketing ekspozycji</string>
     <string name="pref_camera_ae_bracket_hdr_title">Autobracketing ekspozycji</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Włączone</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Wyłączone</string>
     <string name="err_app_unsupport_ae_bracket_code">Autobracketing nie jest jeszcze wspierany</string>
     <string name="snapshot_lower_than_video">Rozmiar zrzutu jest mniejszy niż rozmiar wideo. Ustaw rozdzielczość większą lub równą aktualnej wielkości wideo.</string>
     <string name="snapshotsize_low_powermode">Zmiana rozmiaru obrazka w trybie niskiego poboru energii nie jest wspierana. Zostanie wykonany zrzut o rozdzielczości wideo. Wybierz standardowy tryb pracy, aby zmienić rozmiar obrazka.</string>
@@ -122,7 +124,7 @@
     <string name="pref_camera_hfr_entry_hsr_90">Wysoka szybkość 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Wysoka szybkość 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Wysoka szybkość: 240 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_480">Duża prędkość 480 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_480">Wysoka szybkość 480 FPS</string>
     <string name="pref_camera_noise_reduction_title">Redukcja szumów</string>
     <string name="pref_camera_noise_reduction_entry_off">Wyłączone</string>
     <string name="pref_camera_noise_reduction_entry_fast">Szybka</string>
@@ -241,6 +243,7 @@
     <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Włącz</string>
     <string name="pref_camera_auto_hdr_entry_disable">Wyłącz</string>
+    <string name="on_switch_save_path_to_sdcard">Kończy się miejsce w pamięci urządzenia, domyślna pamięć zmieniona na kartę SD</string>
     <string name="pref_camera_hdr_mode_title">Tryb HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Czujnik HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Wieloklatkowy HDR</string>
@@ -301,10 +304,9 @@
     <string name="pref_camera2_videosnap_title">Automatyczny rozmiar migawki</string>
     <string name="pref_camera2_videosnap_entry_enable">Wł.</string>
     <string name="pref_camera2_videosnap_entry_disable">Wył.</string>
-    <string name="pref_camera2_touch_track_focus_entry_on">Włącz</string>
-    <string name="pref_camera2_touch_track_focus_off">Wyłącz</string>
-    <string name="pref_camera2_multi_cameras_entry_on">Włącz</string>
-    <string name="pref_camera2_multi_cameras_entry_off">Wyłącz</string>
+    <string name="pref_camera2_trackingfocus_title">Śledzenie ostrości</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Włączone</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Wyłączone</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Najlepsze zdjęcie</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Wyostrz zdjęcie</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Śledzenie ostrości</string>
@@ -342,9 +344,9 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Dzięki funkcji Time Lapse możesz przekształcić długie nagranie wideo w kilku sekundowe. Ten efekt dotyczy tylko filmów.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Pozwala przesuwać w lewo lub w prawo, aby zrobić zdjęcie krajobrazowe. Możesz przesuwać w górę lub w dół, aby zrobić duże zdjęcia.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster zmniejsza rozmycie spowodowane przez drżące ręce. Może być pomocny przy robieniu zdjęć w trudnych miejscach.</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">W trybie Pro można ręcznie sterować ustawieniami ISO, ekspozycji, balansu bieli i ostrości. Będziesz mieć łatwy dostęp do wszystkich tych zaawansowanych ustawień.</string>
-    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">Dzięki funkcji DeepZoom możesz otrzymać zdjęcie z ulepszonym zoomem 2x lub 4x.</string>
-    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">Dzięki funkcji DeepPortrait możesz wykonywać autoportrety z rozmytym tłem. Możesz użyć suwaka, aby dostosować wielkość rozmycia.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">W trybie Pro można ręcznie sterować ustawieniami ISO, ekspozycji, balansu bieli i ostrości. Będziesz mieć łatwy dostęp do tych wszystkich zaawansowanych ustawień.</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">W trybie DeepZoom możesz robić zdjęcia w 2 lub 4 krotnym powiększeniu.</string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">W trybie DeepPortrait możesz robić autoportrety z rozmazanym tłem. Możesz użyć suwaka, aby dostosować stopień rozmycia.</string>
     <string name="pref_camera2_not_show_again">Nie pokazuj ponownie</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">Natychmiastowy AEC</string>
@@ -406,36 +408,37 @@
     <string name="pref_camera2_videoencoderprofile_title">Profil enkodera</string>
     <string name="pref_camera2_afmode_entry_disable">Wyłączone</string>
     <string name="pref_camera2_afmode_entry_off">Wyłączone</string>
-    <string name="pref_camera2_afmode_entry_continuous_video">Ciągłe nagrywanie</string>
-    <string name="pref_camera2_afmode_entry_continuous_picture">Zdjęcia seryjne</string>
+    <string name="pref_camera2_afmode_entry_continuous_video">Tryb ciągły wideo</string>
+    <string name="pref_camera2_afmode_entry_continuous_picture">Tryb ciągły zdjęć</string>
     <string name="pref_camera2_afmode_entry_edof">Rozszerzona głębia ostrości</string>
     <string name="pref_camera2_switch_camera_title">Przełączenie kamery na podstawie ID</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Filtr Bayera</string>
     <string name="pref_camera2_initial_camera_entry_mono">Monochromatyczny</string>
     <string name="pref_camera2_initial_camera_entry_front">Przód</string>
-    <string name="pref_camera2_eis_title">Elektroniczna stabilizacja wideo</string>
+    <string name="pref_camera2_eis_title">Wideo EIS</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 i ustaw podczas pauzy</string>
     <string name="pref_camera2_eis_entry_disable">Wyłączone</string>
-    <string name="pref_camera2_fovc_title">Pole widzenia wideo</string>
+    <string name="pref_camera2_fovc_title">Wideo FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Włączone</string>
     <string name="pref_camera2_fovc_entry_disable">Wyłączone</string>
     <string name="pref_camera2_video_hdr_entry_enable">Włączone</string>
     <string name="pref_camera2_video_hdr_entry_disable">Wyłączone</string>
     <string name="pref_camera2_picture_format_title">Format obrazu</string>
-    <string name="pref_camera2_switcher_entry_front">Przód</string>
-    <string name="pref_camera2_force_aux_entry_on">Włączone</string>
-    <string name="pref_camera2_force_aux_entry_off">Wyłączone</string>
-    <string name="pref_camera2_stats_visualizer_title">Wizualizacja statystyk</string>
+    <string name="pref_camera2_stats_visualizer_title">Wizualizator statystyk</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Statystyki BG</string>
-    <string name="pref_camera2_stats_visualizer_entry_be_stats">BE statystyki</string>
-    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Statystyki histogramu</string>
-    <string name="pref_camera2_capture_mfnr_title">Redukcja szumów przez łączenie wielu zdjęć</string>
+    <string name="pref_camera2_stats_visualizer_entry_be_stats">Statystyki BE</string>
+    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Statystyki Hist</string>
+    <string name="stats_visualizer_bg_label">Widok wykresu glikemii</string>
+    <string name="stats_visualizer_be_label">Widok wykresu glikemii</string>
+    <string name="pref_camera2_capture_mfnr_title">Wieloklatkowa redukcja szumów</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Włączone</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Wyłączone</string>
-    <string name="pref_camera2_fs2_title">Szybka migawka</string>
+    <string name="pref_camera2_fs2_title">Szybkie migawki</string>
     <string name="pref_camera2_fs2_entry_enable">Włączone</string>
     <string name="pref_camera2_fs2_entry_disable">Wyłączone</string>
+    <string name="pref_camera2_abort_captures_title">Przerwij przechwytywanie</string>
     <string name="pref_camera2_abort_captures_entry_enable">Włączone</string>
     <string name="pref_camera2_abort_captures_entry_disable">Wyłączone</string>
-    <string name="pref_camera_tone_mapping_entry_user_setting">Ustawienia użytkownika</string>
-    <string name="pref_camera_tone_mapping_entry_off">Wyłączone</string>
 </resources>

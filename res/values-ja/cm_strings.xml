@@ -56,11 +56,11 @@
     <string name="pref_camera_scenemode_entry_steadyphoto">ステディカム</string>
     <string name="pref_camera_scenemode_entry_supernight">闇夜</string>
     <string name="pref_camera_scenemode_entry_sweepstitch">スイープステッチ</string>
-    <string name="pref_camera_scenemode_entry_text">テキスト</string>
+    <string name="pref_camera_scenemode_entry_text">文字</string>
     <string name="pref_camera_scenemode_entry_theatre">シアター</string>
     <string name="pref_camera_scenemode_entry_whiteboard">ホワイトボード</string>
     <string name="pref_camera_focusmode_entry_continuous">コンティニュアス</string>
-    <string name="pref_camera_focusmode_entry_mw_continuous">コンティニュアス（MW）</string>
+    <string name="pref_camera_focusmode_entry_mw_continuous">コンティニュアス (MW)</string>
     <string name="pref_camera_focusmode_entry_extended">拡張</string>
     <string name="pref_camera_focusmode_entry_facedetect">顔認識</string>
     <string name="pref_camera_focusmode_entry_facepriority">顔優先</string>
@@ -79,7 +79,7 @@
     <string name="pref_camera_flashmode_label_redeye">赤目</string>
     <string name="pref_camera_power_shutter_title">電源ボタンでシャッター</string>
     <string name="pref_camera_max_brightness_title">画面を明るくする</string>
-    <string name="pref_camera_focustime_title">タッチフォーカス継続</string>
+    <string name="pref_camera_focustime_title">タッチフォーカスの保持時間</string>
     <string name="pref_camera_focustime_entry_0">0秒</string>
     <string name="pref_camera_focustime_entry_3">3秒</string>
     <string name="pref_camera_focustime_entry_5">5秒</string>
@@ -88,5 +88,5 @@
     <string name="pref_camera_shutter_speed_title">シャッタースピード</string>
     <string name="developer_menu_enabled">上級者向けのカメラのオプションを有効にしました</string>
     <string name="developer_menu_disabled">上級者向けのカメラのオプションを無効にしました</string>
-    <string name="pref_camera2_preferences_category_developer">高度な設定</string>
+    <string name="pref_camera2_preferences_category_developer">高度なオプション</string>
 </resources>
