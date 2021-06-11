@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -243,7 +243,6 @@
     <string name="pref_camera_auto_hdr_title">Авто HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Включить</string>
     <string name="pref_camera_auto_hdr_entry_disable">Выключить</string>
-    <string name="on_switch_save_path_to_sdcard">Внутренней памяти недостаточно. Выбрано сохранение на SD-карту</string>
     <string name="pref_camera_hdr_mode_title">Режим HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">HDR матрицы</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Многокадровый HDR</string>
@@ -304,9 +303,10 @@
     <string name="pref_camera2_videosnap_title">Размер моментального автоснимка</string>
     <string name="pref_camera2_videosnap_entry_enable">Включить</string>
     <string name="pref_camera2_videosnap_entry_disable">Выключить</string>
-    <string name="pref_camera2_trackingfocus_title">Следящий автофокус</string>
-    <string name="pref_camera2_trackingfocus_entry_on">Вкл</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Отключить</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Включить</string>
+    <string name="pref_camera2_touch_track_focus_off">Выключить</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Включить</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Выключить</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Лучший снимок</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">SharpPhoto</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Следящий автофокус</string>
@@ -426,6 +426,9 @@
     <string name="pref_camera2_video_hdr_entry_enable">Включить</string>
     <string name="pref_camera2_video_hdr_entry_disable">Отключить</string>
     <string name="pref_camera2_picture_format_title">Формат изображения</string>
+    <string name="pref_camera2_switcher_entry_front">Фронтальная</string>
+    <string name="pref_camera2_force_aux_entry_on">Вкл</string>
+    <string name="pref_camera2_force_aux_entry_off">Отключить</string>
     <string name="pref_camera2_stats_visualizer_title">Статистика визуализатора</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG статистика</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE статистика</string>
@@ -441,4 +444,6 @@
     <string name="pref_camera2_abort_captures_title">Отмена картинок</string>
     <string name="pref_camera2_abort_captures_entry_enable">Включить</string>
     <string name="pref_camera2_abort_captures_entry_disable">Отключить</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Параметры пользователя</string>
+    <string name="pref_camera_tone_mapping_entry_off">Отключить</string>
 </resources>

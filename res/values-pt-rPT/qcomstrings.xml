@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -243,7 +243,6 @@
     <string name="pref_camera_auto_hdr_title">HDR automático</string>
     <string name="pref_camera_auto_hdr_entry_enable">Ativar</string>
     <string name="pref_camera_auto_hdr_entry_disable">Desativar</string>
-    <string name="on_switch_save_path_to_sdcard">O espaço de armazenamento interno não é suficiente. O local de armazenamento foi alterado para o cartão SD</string>
     <string name="pref_camera_hdr_mode_title">Modo HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR multi-frame</string>
@@ -304,9 +303,10 @@
     <string name="pref_camera2_videosnap_title">Tamanho automático do instantâneo</string>
     <string name="pref_camera2_videosnap_entry_enable">Ativar</string>
     <string name="pref_camera2_videosnap_entry_disable">Desativar</string>
-    <string name="pref_camera2_trackingfocus_title">Rastreamento de foco</string>
-    <string name="pref_camera2_trackingfocus_entry_on">Ligado</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Desativada</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Ativar</string>
+    <string name="pref_camera2_touch_track_focus_off">Desativar</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Ativar</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Desativar</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Melhor imagem</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Foto nítida</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Rastreamento de foco</string>
@@ -426,6 +426,9 @@
     <string name="pref_camera2_video_hdr_entry_enable">Ativado</string>
     <string name="pref_camera2_video_hdr_entry_disable">Desativado</string>
     <string name="pref_camera2_picture_format_title">Formato da fotografia</string>
+    <string name="pref_camera2_switcher_entry_front">Frontal</string>
+    <string name="pref_camera2_force_aux_entry_on">Ligado</string>
+    <string name="pref_camera2_force_aux_entry_off">Desativada</string>
     <string name="pref_camera2_stats_visualizer_title">Visualizador de estatísticas</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estatísticas BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Estatísticas BE</string>
@@ -437,4 +440,6 @@
     <string name="pref_camera2_fs2_entry_disable">Desativado</string>
     <string name="pref_camera2_abort_captures_entry_enable">Ativado</string>
     <string name="pref_camera2_abort_captures_entry_disable">Desativado</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Definição do utilizador</string>
+    <string name="pref_camera_tone_mapping_entry_off">Desativada</string>
 </resources>

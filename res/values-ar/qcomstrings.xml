@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -188,7 +188,6 @@
     <string name="msg_cancel_longshot_for_limited_memory">نفاد الذاكرة، إلغاء اللقطة المستمرة</string>
     <string name="flash_aebracket_message">فلاش غير مدعم في وضع الأقواس AE</string>
     <string name="pref_camera_auto_hdr_title">HDR تلقائي</string>
-    <string name="on_switch_save_path_to_sdcard">مساحة التخزين الداخلية غير كاف، تم تبديل موقع التخزين إلى بطاقة SD</string>
     <string name="pref_camera_hdr_mode_title">وضع HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">HDR للمستشعر</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR للإطارات المتعددة</string>
@@ -210,7 +209,6 @@
     <string name="pref_camera2_mpo_entry_off">إيقاف تشغيل</string>
     <string name="pref_camera2_makeup_entry_off">إيقاف تشغيل</string>
     <string name="pref_camera2_noise_reduction_entry_off">إيقاف تشغيل</string>
-    <string name="pref_camera2_trackingfocus_entry_off">إيقاف تشغيل</string>
     <string name="pref_camera2_shutter_sound_entry_off">إيقاف تشغيل</string>
     <string name="pref_camera2_timer_entry_off">إيقاف تشغيل</string>
     <string name="pref_camera2_scene_mode_pro_instructional_content">مع الوضع المتقدم، يمكنك التحكم يدويا في إعدادات iso، والتعرض، وتوازن اللون الأبيض، والتركيز. سيكون لديك سهولة الوصول إلى كل هذه الإعدادات المتقدمة.</string>
@@ -247,9 +245,12 @@
     <string name="pref_camera2_eis_title">فيديو EIS</string>
     <string name="pref_camera2_fovc_title">فيديو FOVC</string>
     <string name="pref_camera2_picture_format_title">تنسيق الصورة</string>
+    <string name="pref_camera2_force_aux_entry_off">إيقاف تشغيل</string>
     <string name="pref_camera2_stats_visualizer_title">متخيل الاحصائيات</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">إحصاءات BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">إحصاءات BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">إحصائيات Hist</string>
     <string name="pref_camera2_capture_mfnr_title">تقليل الضوضاء متعدد الأطار</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">إعداد المستخدم</string>
+    <string name="pref_camera_tone_mapping_entry_off">إيقاف تشغيل</string>
 </resources>

@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -243,7 +243,6 @@
     <string name="pref_camera_auto_hdr_title">自動 HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">啟用</string>
     <string name="pref_camera_auto_hdr_entry_disable">停用</string>
-    <string name="on_switch_save_path_to_sdcard">內部儲存空間不足，已切換儲存位置至 SD 卡</string>
     <string name="pref_camera_hdr_mode_title">HDR 模式</string>
     <string name="pref_camera_hdr_mode_entry_sensor">感應器 HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">多影格 HDR</string>
@@ -304,9 +303,10 @@
     <string name="pref_camera2_videosnap_title">自動快照尺寸</string>
     <string name="pref_camera2_videosnap_entry_enable">啟用</string>
     <string name="pref_camera2_videosnap_entry_disable">停用</string>
-    <string name="pref_camera2_trackingfocus_title">追蹤對焦</string>
-    <string name="pref_camera2_trackingfocus_entry_on">開</string>
-    <string name="pref_camera2_trackingfocus_entry_off">關</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">啟用</string>
+    <string name="pref_camera2_touch_track_focus_off">停用</string>
+    <string name="pref_camera2_multi_cameras_entry_on">啟用</string>
+    <string name="pref_camera2_multi_cameras_entry_off">停用</string>
     <string name="pref_camera_scenemode_entry_bestpicture">最佳相片</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">照片銳化</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">追蹤對焦</string>
@@ -426,6 +426,9 @@
     <string name="pref_camera2_video_hdr_entry_enable">已啟用</string>
     <string name="pref_camera2_video_hdr_entry_disable">已停用</string>
     <string name="pref_camera2_picture_format_title">相片格式</string>
+    <string name="pref_camera2_switcher_entry_front">前面</string>
+    <string name="pref_camera2_force_aux_entry_on">開</string>
+    <string name="pref_camera2_force_aux_entry_off">關</string>
     <string name="pref_camera2_stats_visualizer_title">統計可視化器</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG 統計</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE 統計</string>
@@ -441,4 +444,6 @@
     <string name="pref_camera2_abort_captures_title">取消保存</string>
     <string name="pref_camera2_abort_captures_entry_enable">已啟用</string>
     <string name="pref_camera2_abort_captures_entry_disable">已停用</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">使用者設定</string>
+    <string name="pref_camera_tone_mapping_entry_off">關</string>
 </resources>

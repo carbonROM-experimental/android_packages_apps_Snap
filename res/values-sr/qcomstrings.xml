@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -238,7 +238,6 @@
     <string name="pref_camera_auto_hdr_title">Аутоматски HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Омогући</string>
     <string name="pref_camera_auto_hdr_entry_disable">Онемогући</string>
-    <string name="on_switch_save_path_to_sdcard">Недовољно простора на унутрашњем складишту. Изабрана је SD картица</string>
     <string name="pref_camera_hdr_mode_title">Режим HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">HDR сензор</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR са више кадрова</string>
@@ -299,9 +298,10 @@
     <string name="pref_camera2_videosnap_title">Величина аутоматског снимка</string>
     <string name="pref_camera2_videosnap_entry_enable">Омогући</string>
     <string name="pref_camera2_videosnap_entry_disable">Онемогући</string>
-    <string name="pref_camera2_trackingfocus_title">Пратећи фокус</string>
-    <string name="pref_camera2_trackingfocus_entry_on">Укљ</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Искључено</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Омогући</string>
+    <string name="pref_camera2_touch_track_focus_off">Онемогући</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Омогући</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Онемогући</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Најбоља слика</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Пратећи фокус</string>
     <string name="bestpicture_done">ГОТОВО</string>
@@ -375,10 +375,15 @@
     <string name="pref_camera2_video_hdr_entry_enable">Омогућено</string>
     <string name="pref_camera2_video_hdr_entry_disable">Онемогућено</string>
     <string name="pref_camera2_picture_format_title">Формат слике</string>
+    <string name="pref_camera2_switcher_entry_front">Предња</string>
+    <string name="pref_camera2_force_aux_entry_on">Укључено</string>
+    <string name="pref_camera2_force_aux_entry_off">Искључено</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Омогућено</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Онемогућено</string>
     <string name="pref_camera2_fs2_entry_enable">Омогућено</string>
     <string name="pref_camera2_fs2_entry_disable">Онемогућено</string>
     <string name="pref_camera2_abort_captures_entry_enable">Омогућено</string>
     <string name="pref_camera2_abort_captures_entry_disable">Онемогућено</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Корисничка подешавања</string>
+    <string name="pref_camera_tone_mapping_entry_off">Искључено</string>
 </resources>

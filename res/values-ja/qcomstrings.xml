@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -243,7 +243,6 @@
     <string name="pref_camera_auto_hdr_title">オート HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">有効</string>
     <string name="pref_camera_auto_hdr_entry_disable">無効</string>
-    <string name="on_switch_save_path_to_sdcard">内部ストレージの容量が少なくなっているためストレージの場所を SD カードに切り替えました</string>
     <string name="pref_camera_hdr_mode_title">HDR モード</string>
     <string name="pref_camera_hdr_mode_entry_sensor">センサー HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">マルチフレーム HDR</string>
@@ -304,9 +303,10 @@
     <string name="pref_camera2_videosnap_title">自動スナップショットサイズ</string>
     <string name="pref_camera2_videosnap_entry_enable">有効</string>
     <string name="pref_camera2_videosnap_entry_disable">無効</string>
-    <string name="pref_camera2_trackingfocus_title">追尾フォーカス</string>
-    <string name="pref_camera2_trackingfocus_entry_on">ON</string>
-    <string name="pref_camera2_trackingfocus_entry_off">OFF</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">有効</string>
+    <string name="pref_camera2_touch_track_focus_off">無効</string>
+    <string name="pref_camera2_multi_cameras_entry_on">有効</string>
+    <string name="pref_camera2_multi_cameras_entry_off">無効</string>
     <string name="pref_camera_scenemode_entry_bestpicture">最高の写真</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">シャープネス</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">追尾フォーカス</string>
@@ -426,6 +426,9 @@
     <string name="pref_camera2_video_hdr_entry_enable">有効</string>
     <string name="pref_camera2_video_hdr_entry_disable">無効</string>
     <string name="pref_camera2_picture_format_title">写真の形式</string>
+    <string name="pref_camera2_switcher_entry_front">フロント</string>
+    <string name="pref_camera2_force_aux_entry_on">ON</string>
+    <string name="pref_camera2_force_aux_entry_off">OFF</string>
     <string name="pref_camera2_stats_visualizer_title">統計ビジュアライザー</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG 利用状況</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE 利用状況</string>
@@ -441,4 +444,6 @@
     <string name="pref_camera2_abort_captures_title">キャプチャーを破棄</string>
     <string name="pref_camera2_abort_captures_entry_enable">有効</string>
     <string name="pref_camera2_abort_captures_entry_disable">無効</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">ユーザー設定</string>
+    <string name="pref_camera_tone_mapping_entry_off">OFF</string>
 </resources>

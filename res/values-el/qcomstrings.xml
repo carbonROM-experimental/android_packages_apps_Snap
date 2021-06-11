@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -243,7 +243,6 @@
     <string name="pref_camera_auto_hdr_title">Αυτόματο HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Ενεργό</string>
     <string name="pref_camera_auto_hdr_entry_disable">Ανενεργό</string>
-    <string name="on_switch_save_path_to_sdcard">Ο εσωτερικός χώρος αποθήκευσης δεν επαρκεί, αλλαγή χώρου αποθήκευσης σε κάρτα SD</string>
     <string name="pref_camera_hdr_mode_title">Λειτουργία HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">HDR αισθητήρα</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR πολλαπλών καρέ</string>
@@ -304,9 +303,10 @@
     <string name="pref_camera2_videosnap_title">Αυτόματο μέγεθος στιγμιότυπου οθόνης</string>
     <string name="pref_camera2_videosnap_entry_enable">Ενεργό</string>
     <string name="pref_camera2_videosnap_entry_disable">Ανενεργό</string>
-    <string name="pref_camera2_trackingfocus_title">Παρακολούθηση εστίασης</string>
-    <string name="pref_camera2_trackingfocus_entry_on">Ενεργή</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Ανενεργή</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Ενεργοποίηση</string>
+    <string name="pref_camera2_touch_track_focus_off">Απενεργοποίηση</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Ενεργοποίηση</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Απενεργοποίηση</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Βέλτιστη εικόνα</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Σταθερή φωτογραφία</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Παρακολούθηση εστίασης</string>
@@ -426,6 +426,9 @@
     <string name="pref_camera2_video_hdr_entry_enable">Ενεργός</string>
     <string name="pref_camera2_video_hdr_entry_disable">Ανενεργός</string>
     <string name="pref_camera2_picture_format_title">Τύπος εικόνας</string>
+    <string name="pref_camera2_switcher_entry_front">Μπροστινή</string>
+    <string name="pref_camera2_force_aux_entry_on">Ενεργή</string>
+    <string name="pref_camera2_force_aux_entry_off">Ανενεργή</string>
     <string name="pref_camera2_stats_visualizer_title">Απεικόνιση στατιστικών</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Στατιστικά BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Στατιστικά BE</string>
@@ -437,4 +440,6 @@
     <string name="pref_camera2_fs2_entry_disable">Ανενεργός</string>
     <string name="pref_camera2_abort_captures_entry_enable">Ενεργός</string>
     <string name="pref_camera2_abort_captures_entry_disable">Ανενεργός</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Ρύθμιση χρήστη</string>
+    <string name="pref_camera_tone_mapping_entry_off">Ανενεργή</string>
 </resources>

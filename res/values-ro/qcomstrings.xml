@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -241,7 +241,6 @@
     <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Activați</string>
     <string name="pref_camera_auto_hdr_entry_disable">Dezactivați</string>
-    <string name="on_switch_save_path_to_sdcard">Spațiul stocării interne nu este suficient, comutat stocarea pe cardul SD</string>
     <string name="pref_camera_hdr_mode_title">Mod HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Senzor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR multi-cadru</string>
@@ -302,9 +301,10 @@
     <string name="pref_camera2_videosnap_title">Dimensiune instantaneu automată</string>
     <string name="pref_camera2_videosnap_entry_enable">Activați</string>
     <string name="pref_camera2_videosnap_entry_disable">Dezactivați</string>
-    <string name="pref_camera2_trackingfocus_title">Urmărire focalizare</string>
-    <string name="pref_camera2_trackingfocus_entry_on">Activat</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Oprit</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Activați</string>
+    <string name="pref_camera2_touch_track_focus_off">Dezactivați</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Activați</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Dezactivați</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Cea mai bună fotografie</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Fotografie detaliată</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Urmărire focalizare</string>
@@ -421,6 +421,9 @@
     <string name="pref_camera2_video_hdr_entry_enable">Activat</string>
     <string name="pref_camera2_video_hdr_entry_disable">Dezactivat</string>
     <string name="pref_camera2_picture_format_title">Formatul pozei</string>
+    <string name="pref_camera2_switcher_entry_front">Frontal</string>
+    <string name="pref_camera2_force_aux_entry_on">Activat</string>
+    <string name="pref_camera2_force_aux_entry_off">Oprit</string>
     <string name="pref_camera2_stats_visualizer_title">Vizualizare statistici</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Statistici BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Statistici BE</string>
@@ -432,4 +435,6 @@
     <string name="pref_camera2_fs2_entry_disable">Dezactivat</string>
     <string name="pref_camera2_abort_captures_entry_enable">Activat</string>
     <string name="pref_camera2_abort_captures_entry_disable">Dezactivat</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Setare utilizator</string>
+    <string name="pref_camera_tone_mapping_entry_off">Oprit</string>
 </resources>

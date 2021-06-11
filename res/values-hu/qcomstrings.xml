@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -238,7 +238,6 @@
     <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Engedélyezés</string>
     <string name="pref_camera_auto_hdr_entry_disable">Letiltás</string>
-    <string name="on_switch_save_path_to_sdcard">Belső tárhely nem elég, tárhely az SD-kártyára váltva</string>
     <string name="pref_camera_hdr_mode_title">HDR mód</string>
     <string name="pref_camera_hdr_mode_entry_sensor">HDR szenzor</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-keret HDR</string>
@@ -297,8 +296,10 @@
     <string name="pref_camera2_videosnap_title">Automatikus pillanatkép méret</string>
     <string name="pref_camera2_videosnap_entry_enable">Engedélyezés</string>
     <string name="pref_camera2_videosnap_entry_disable">Letiltás</string>
-    <string name="pref_camera2_trackingfocus_title">Fókuszkövetés</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Ki</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Engedélyezés</string>
+    <string name="pref_camera2_touch_track_focus_off">Letiltás</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Engedélyezés</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Letiltás</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Legjobb kép</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Fókuszkövetés</string>
     <string name="bestpicture_done">KÉSZ</string>
@@ -355,6 +356,8 @@
     <string name="pref_camera2_video_hdr_entry_enable">Engedélyezve</string>
     <string name="pref_camera2_video_hdr_entry_disable">Kikapcsolva</string>
     <string name="pref_camera2_picture_format_title">Válasszon kép formátumot</string>
+    <string name="pref_camera2_force_aux_entry_on">Be</string>
+    <string name="pref_camera2_force_aux_entry_off">Ki</string>
     <string name="stats_visualizer_bg_label">BG gráf nézet</string>
     <string name="stats_visualizer_be_label">BE gráf nézet</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Engedélyezve</string>
@@ -365,4 +368,6 @@
     <string name="pref_camera2_abort_captures_title">Felvételek megszakítása</string>
     <string name="pref_camera2_abort_captures_entry_enable">Engedélyezve</string>
     <string name="pref_camera2_abort_captures_entry_disable">Kikapcsolva</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Felhasználói beállítás</string>
+    <string name="pref_camera_tone_mapping_entry_off">Ki</string>
 </resources>

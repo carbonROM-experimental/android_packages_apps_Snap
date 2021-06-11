@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -238,7 +238,6 @@
     <string name="pref_camera_auto_hdr_title">HDR אוטומטי</string>
     <string name="pref_camera_auto_hdr_entry_enable">אפשר</string>
     <string name="pref_camera_auto_hdr_entry_disable">השבת</string>
-    <string name="on_switch_save_path_to_sdcard">שטח האחסון הפנימי אינו מספיק, מיקום האחסון הוחלף לכרטיס הזיכרון</string>
     <string name="pref_camera_hdr_mode_title">מצב HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">חיישן HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR מרובה פריימים</string>
@@ -299,9 +298,10 @@
     <string name="pref_camera2_videosnap_title">גודל תמונה אוטומטי</string>
     <string name="pref_camera2_videosnap_entry_enable">אפשר</string>
     <string name="pref_camera2_videosnap_entry_disable">השבת</string>
-    <string name="pref_camera2_trackingfocus_title">מעקב מיקוד</string>
-    <string name="pref_camera2_trackingfocus_entry_on">דלוק</string>
-    <string name="pref_camera2_trackingfocus_entry_off">כבוי</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">הפעל</string>
+    <string name="pref_camera2_touch_track_focus_off">השבת</string>
+    <string name="pref_camera2_multi_cameras_entry_on">הפעל</string>
+    <string name="pref_camera2_multi_cameras_entry_off">השבת</string>
     <string name="pref_camera_scenemode_entry_bestpicture">התמונה הטובה ביותר</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">חידוד תמונה</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">מעקב מיקוד</string>
@@ -409,10 +409,15 @@
     <string name="pref_camera2_video_hdr_entry_enable">מופעל</string>
     <string name="pref_camera2_video_hdr_entry_disable">מושבת</string>
     <string name="pref_camera2_picture_format_title">פורמט תמונה</string>
+    <string name="pref_camera2_switcher_entry_front">קדמית</string>
+    <string name="pref_camera2_force_aux_entry_on">מופעל</string>
+    <string name="pref_camera2_force_aux_entry_off">כבוי</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">מופעל</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">מושבת</string>
     <string name="pref_camera2_fs2_entry_enable">מופעל</string>
     <string name="pref_camera2_fs2_entry_disable">מושבת</string>
     <string name="pref_camera2_abort_captures_entry_enable">מופעל</string>
     <string name="pref_camera2_abort_captures_entry_disable">מושבת</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">הגדרת המשתמש</string>
+    <string name="pref_camera_tone_mapping_entry_off">כבוי</string>
 </resources>

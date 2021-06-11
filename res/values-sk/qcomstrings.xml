@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -243,7 +243,6 @@
     <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Zapnúť</string>
     <string name="pref_camera_auto_hdr_entry_disable">Vypnúť</string>
-    <string name="on_switch_save_path_to_sdcard">Nedostatok vnútorného ukladacieho priestoru, ukladá sa na kartu SD</string>
     <string name="pref_camera_hdr_mode_title">HDR režim</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Senzor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Multisnímkový HDR</string>
@@ -304,9 +303,10 @@
     <string name="pref_camera2_videosnap_title">Automatická veľkosť obrázku</string>
     <string name="pref_camera2_videosnap_entry_enable">Použiť</string>
     <string name="pref_camera2_videosnap_entry_disable">Zakázať</string>
-    <string name="pref_camera2_trackingfocus_title">Sledovanie zameranie</string>
-    <string name="pref_camera2_trackingfocus_entry_on">Zap.</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Vypnutá</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Zapnúť</string>
+    <string name="pref_camera2_touch_track_focus_off">Vypnúť</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Zapnúť</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Vypnúť</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Najlepší obraz</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Ostrá fotografia</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Sledovanie zameranie</string>
@@ -426,6 +426,9 @@
     <string name="pref_camera2_video_hdr_entry_enable">Zapnúť</string>
     <string name="pref_camera2_video_hdr_entry_disable">Vypnúť</string>
     <string name="pref_camera2_picture_format_title">Formát obrázku</string>
+    <string name="pref_camera2_switcher_entry_front">Predná</string>
+    <string name="pref_camera2_force_aux_entry_on">Zapnúť</string>
+    <string name="pref_camera2_force_aux_entry_off">Vypnutá</string>
     <string name="pref_camera2_stats_visualizer_title">Zobrazovač štatistík</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG štatistiky</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE štatistiky</string>
@@ -441,4 +444,6 @@
     <string name="pref_camera2_abort_captures_title">Zrušiť obrázok</string>
     <string name="pref_camera2_abort_captures_entry_enable">Zapnúť</string>
     <string name="pref_camera2_abort_captures_entry_disable">Vypnúť</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Nastavenie použivateľa</string>
+    <string name="pref_camera_tone_mapping_entry_off">Vypnutá</string>
 </resources>

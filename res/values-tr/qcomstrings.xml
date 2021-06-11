@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -120,11 +120,21 @@
     <string name="pref_camera_hfr_entry_4x">Ağır çekim 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Ağır çekim 240 FPS</string>
     <string name="pref_camera_hfr_entry_16x">Ağır çekim 480 FPS</string>
+    <string name="pref_camera_hfr_entry_32x">Ağır çekim 960 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Hızlı çekim 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Hızlı çekim 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Hızlı çekim 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Yüksek hız 240 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_480">Hızlı çekim 480 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_960">Hızlı çekim 960 FPS</string>
+    <string name="pref_camera_hfr_entry_2x_ssm_120">Süper Ağır Çekim 120-&gt;240</string>
+    <string name="pref_camera_hfr_entry_4x_ssm_120">Süper Ağır Çekim 120-&gt;480</string>
+    <string name="pref_camera_hfr_entry_2x_ssm_240">Süper Ağır Çekim 240-&gt;480</string>
+    <string name="pref_camera_hfr_entry_4x_ssm_240">Süper Ağır Çekim 240-&gt;960</string>
+    <string name="pref_camera_hfr_entry_2x_ssm_480">Süper Ağır Çekim 480-&gt;960</string>
+    <string name="pref_camera_hfr_entry_4x_ssm_480">Süper Ağır Çekim 480-&gt;1920</string>
+    <string name="pref_camera_hfr_entry_2x_ssm_960">Süper Ağır Çekim 960-&gt;1920</string>
+    <string name="pref_camera_hfr_entry_4x_ssm_960">Süper Ağır Çekim 960-&gt;3840</string>
     <string name="pref_camera_noise_reduction_title">Parazit Azaltma</string>
     <string name="pref_camera_noise_reduction_entry_off">Kapalı</string>
     <string name="pref_camera_noise_reduction_entry_fast">Hızlı</string>
@@ -243,7 +253,8 @@
     <string name="pref_camera_auto_hdr_title">Otomatik HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Etkin</string>
     <string name="pref_camera_auto_hdr_entry_disable">Devre dışı</string>
-    <string name="on_switch_save_path_to_sdcard">Dahili depolama alanı yeterli değil, depolama konumu SD kart olarak değiştirildi</string>
+    <string name="on_switch_save_path_to_sdcard">Dahili depolama alanı yeterli değil. Kayıt yolu SD kart olarak değiştirildi</string>
+    <string name="storage_not_enough">Depolama alanı yeterli değil</string>
     <string name="pref_camera_hdr_mode_title">HDR modu</string>
     <string name="pref_camera_hdr_mode_entry_sensor">HDR Sensörü</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Çoklu kare HDR</string>
@@ -304,9 +315,12 @@
     <string name="pref_camera2_videosnap_title">Otomatik anlık görüntü boyutu</string>
     <string name="pref_camera2_videosnap_entry_enable">Etkinleştir</string>
     <string name="pref_camera2_videosnap_entry_disable">Devre dışı</string>
-    <string name="pref_camera2_trackingfocus_title">Odak izleme</string>
-    <string name="pref_camera2_trackingfocus_entry_on">Açık</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Kapalı</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Etkin</string>
+    <string name="pref_camera2_touch_track_focus_off">Devre dışı</string>
+    <string name="pref_camera2_touch_track_focus_title">Dokunmatik izleme odağı</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Etkin</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Devre dışı</string>
+    <string name="pref_camera2_multi_cameras_title">Birden fazla kamera</string>
     <string name="pref_camera_scenemode_entry_bestpicture">En iyi görüntü</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Keskin fotoğraf</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Odak izleme</string>
@@ -399,8 +413,12 @@
     <string name="pref_camera_zoom_entry_9x">9x</string>
     <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Gülümseme/göz kırpma/bakış açısı algılama</string>
+    <string name="pref_camera2_facial_contour_title">Yüz konturu</string>
+    <string name="pref_camera2_face_detection_mode_title">Yüz tanıma modu</string>
     <string name="pref_camera2_bsgc_entry_enable">Etkinleştir</string>
     <string name="pref_camera2_bsgc_entry_disable">Devre dışı</string>
+    <string name="pref_camera2_face_detection_entry_simple">Basit</string>
+    <string name="pref_camera2_face_detection_entry_full">Tam</string>
     <string name="pref_camera2_zsl_title">Sıfır çekim gecikmesi</string>
     <string name="pref_camera2_zsl_entry_disable">Kapalı</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Yazılımsal ZSL</string>
@@ -426,6 +444,12 @@
     <string name="pref_camera2_video_hdr_entry_enable">Etkinleştirildi</string>
     <string name="pref_camera2_video_hdr_entry_disable">Devre dışı</string>
     <string name="pref_camera2_picture_format_title">Resim formatı</string>
+    <string name="pref_camera2_switcher_title">Kamera değiştirici</string>
+    <string name="pref_camera2_switcher_entry_rear">Arka</string>
+    <string name="pref_camera2_switcher_entry_front">Ön</string>
+    <string name="pref_camera2_force_aux_title">AUX\'u zorla</string>
+    <string name="pref_camera2_force_aux_entry_on">Açık</string>
+    <string name="pref_camera2_force_aux_entry_off">Kapalı</string>
     <string name="pref_camera2_stats_visualizer_title">İstatistik görüntüleyici</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG istatistikleri</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE istatistikleri</string>
@@ -441,4 +465,14 @@
     <string name="pref_camera2_abort_captures_title">Yakalamaları iptal et</string>
     <string name="pref_camera2_abort_captures_entry_enable">Etkinleştirildi</string>
     <string name="pref_camera2_abort_captures_entry_disable">Devre dışı</string>
+    <string name="pref_camera_tone_mapping_title">Ton eşleme</string>
+    <string name="pref_camera_tone_mapping_entry_dark_boost_offset">Karanlık güçlendirme ofseti</string>
+    <string name="pref_camera_tone_mapping_entry_fourth_tone_anchor">Dördüncü ton çapa</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Kullanıcı ayarı</string>
+    <string name="pref_camera_tone_mapping_entry_off">Kapalı</string>
+    <string name="pref_multi_camera_hal_zsl_title">HAL ZSL</string>
+    <string name="pref_multi_camera_picturesize1_title">Resim 1 boyutu</string>
+    <string name="pref_multi_camera_picturesize2_title">Resim 2 boyutu</string>
+    <string name="pref_multi_camera_picturesize3_title">Resim 3 boyutu</string>
+    <string name="lock_af_ae_label">AE/AF kilidi</string>
 </resources>

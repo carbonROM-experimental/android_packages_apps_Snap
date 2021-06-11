@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -240,7 +240,6 @@
     <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Activa</string>
     <string name="pref_camera_auto_hdr_entry_disable">Desactiva</string>
-    <string name="on_switch_save_path_to_sdcard">Espai d\'emmagatzematge intern insuficient, s\'ha canviat l\'ubicació de l\'emmagatzematge cap a la targeta SD</string>
     <string name="pref_camera_hdr_mode_title">Mode de HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-marc HDR</string>
@@ -301,9 +300,10 @@
     <string name="pref_camera2_videosnap_title">Mida automàtica de la instantània</string>
     <string name="pref_camera2_videosnap_entry_enable">Habilita</string>
     <string name="pref_camera2_videosnap_entry_disable">Deshabilita</string>
-    <string name="pref_camera2_trackingfocus_title">Seguiment del focus</string>
-    <string name="pref_camera2_trackingfocus_entry_on">Sí</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Desactivat</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Activa</string>
+    <string name="pref_camera2_touch_track_focus_off">Desactiva</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Activa</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Desactiva</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Millor fotografia</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Fotografia nítida</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Seguiment del focus</string>
@@ -411,10 +411,15 @@
     <string name="pref_camera2_video_hdr_entry_enable">Habilitat</string>
     <string name="pref_camera2_video_hdr_entry_disable">Deshabilitat</string>
     <string name="pref_camera2_picture_format_title">Format de la imatge</string>
+    <string name="pref_camera2_switcher_entry_front">Frontal</string>
+    <string name="pref_camera2_force_aux_entry_on">Sí</string>
+    <string name="pref_camera2_force_aux_entry_off">Desactivat</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Habilitat</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Deshabilitat</string>
     <string name="pref_camera2_fs2_entry_enable">Habilitat</string>
     <string name="pref_camera2_fs2_entry_disable">Deshabilitat</string>
     <string name="pref_camera2_abort_captures_entry_enable">Habilitat</string>
     <string name="pref_camera2_abort_captures_entry_disable">Deshabilitat</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Configuració d\'usuari</string>
+    <string name="pref_camera_tone_mapping_entry_off">Desactivat</string>
 </resources>

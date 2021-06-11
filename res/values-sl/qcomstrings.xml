@@ -5,7 +5,7 @@
     Not a Contribution.
 
     Copyright (C) 2007 The Android Open Source Project
-    Copyright (C) 2017-2018 The LineageOS Project
+    Copyright (C) 2017-2020 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -243,7 +243,6 @@
     <string name="pref_camera_auto_hdr_title">Samodejni HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Omogoči</string>
     <string name="pref_camera_auto_hdr_entry_disable">Onemogoči</string>
-    <string name="on_switch_save_path_to_sdcard">Na notranjem pomnilniku je premalo prostora, preklop na kartico SD</string>
     <string name="pref_camera_hdr_mode_title">Način HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Tipalo HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Večslikovni HDR</string>
@@ -304,9 +303,10 @@
     <string name="pref_camera2_videosnap_title">Velikost samodejnega posnetka</string>
     <string name="pref_camera2_videosnap_entry_enable">Omogoči</string>
     <string name="pref_camera2_videosnap_entry_disable">Onemogoči</string>
-    <string name="pref_camera2_trackingfocus_title">Ostrenje s sledenjem</string>
-    <string name="pref_camera2_trackingfocus_entry_on">Vklopljeno</string>
-    <string name="pref_camera2_trackingfocus_entry_off">Izklopljeno</string>
+    <string name="pref_camera2_touch_track_focus_entry_on">Omogoči</string>
+    <string name="pref_camera2_touch_track_focus_off">Onemogoči</string>
+    <string name="pref_camera2_multi_cameras_entry_on">Omogoči</string>
+    <string name="pref_camera2_multi_cameras_entry_off">Onemogoči</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Najboljša slika</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Ostra fotografija</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Ostrenje s sledenjem</string>
@@ -423,6 +423,9 @@
     <string name="pref_camera2_video_hdr_entry_enable">Omogočen</string>
     <string name="pref_camera2_video_hdr_entry_disable">Onemogočen</string>
     <string name="pref_camera2_picture_format_title">Oblika slike</string>
+    <string name="pref_camera2_switcher_entry_front">Sprednja</string>
+    <string name="pref_camera2_force_aux_entry_on">Vklopljeno</string>
+    <string name="pref_camera2_force_aux_entry_off">Izklopljeno</string>
     <string name="pref_camera2_stats_visualizer_title">Vizualizator statistik</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG statistike</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE statistike</string>
@@ -434,4 +437,6 @@
     <string name="pref_camera2_fs2_entry_disable">Onemogočen</string>
     <string name="pref_camera2_abort_captures_entry_enable">Omogočen</string>
     <string name="pref_camera2_abort_captures_entry_disable">Onemogočen</string>
+    <string name="pref_camera_tone_mapping_entry_user_setting">Uporabniške nastavitve</string>
+    <string name="pref_camera_tone_mapping_entry_off">Izklopljeno</string>
 </resources>
