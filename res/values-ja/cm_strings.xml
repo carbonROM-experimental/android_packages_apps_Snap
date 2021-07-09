@@ -89,4 +89,5 @@
     <string name="developer_menu_enabled">上級者向けのカメラのオプションを有効にしました</string>
     <string name="developer_menu_disabled">上級者向けのカメラのオプションを無効にしました</string>
     <string name="pref_camera2_preferences_category_developer">高度なオプション</string>
+    <string name="hfr_unsupported_current_resolution">HFR はこの解像度に対応していません</string>
 </resources>

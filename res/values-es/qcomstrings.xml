@@ -120,11 +120,13 @@
     <string name="pref_camera_hfr_entry_4x">Cámara lenta a 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Cámara lenta a 240 FPS</string>
     <string name="pref_camera_hfr_entry_16x">Cámara lenta a 480 FPS</string>
+    <string name="pref_camera_hfr_entry_32x">Cámara lenta a 960 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Alta velocidad a 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Alta velocidad a 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Alta velocidad a 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Alta velocidad 240 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_480">Cámara rápida a 480 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_960">Alta velocidad a 960 FPS</string>
     <string name="pref_camera_noise_reduction_title">Reducción de ruido</string>
     <string name="pref_camera_noise_reduction_entry_off">Apagar</string>
     <string name="pref_camera_noise_reduction_entry_fast">Rápida</string>
@@ -243,6 +245,8 @@
     <string name="pref_camera_auto_hdr_title">HDR Automático</string>
     <string name="pref_camera_auto_hdr_entry_enable">Activar</string>
     <string name="pref_camera_auto_hdr_entry_disable">Desactivar</string>
+    <string name="on_switch_save_path_to_sdcard">Espacio de almacenamiento interno insuficiente - cambiado la ruta de guardado a la tarjeta SD</string>
+    <string name="storage_not_enough">Espacio de almacenamiento insuficente</string>
     <string name="pref_camera_hdr_mode_title">Modo HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR de marcos múltiples</string>
@@ -305,8 +309,10 @@
     <string name="pref_camera2_videosnap_entry_disable">Desactivar</string>
     <string name="pref_camera2_touch_track_focus_entry_on">Activar</string>
     <string name="pref_camera2_touch_track_focus_off">Desactivar</string>
+    <string name="pref_camera2_touch_track_focus_title">Seguimiento del enfoque</string>
     <string name="pref_camera2_multi_cameras_entry_on">Activar</string>
     <string name="pref_camera2_multi_cameras_entry_off">Desactivar</string>
+    <string name="pref_camera2_multi_cameras_title">Múltiples cámaras</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Mejor imagen</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Foto nítida</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Seguimiento del enfoque</string>
@@ -399,8 +405,12 @@
     <string name="pref_camera_zoom_entry_9x">9x</string>
     <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Detectar sonrisa/parpadeo/mirada</string>
+    <string name="pref_camera2_facial_contour_title">Contorno facial</string>
+    <string name="pref_camera2_face_detection_mode_title">Detección de rostro</string>
     <string name="pref_camera2_bsgc_entry_enable">Activar</string>
     <string name="pref_camera2_bsgc_entry_disable">Desactivar</string>
+    <string name="pref_camera2_face_detection_entry_simple">Sencillo</string>
+    <string name="pref_camera2_face_detection_entry_full">Completo</string>
     <string name="pref_camera2_zsl_title">Eliminar retraso del disparador</string>
     <string name="pref_camera2_zsl_entry_disable">Apagar</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Software ZSL</string>
@@ -427,6 +437,7 @@
     <string name="pref_camera2_video_hdr_entry_disable">Desactivado</string>
     <string name="pref_camera2_picture_format_title">Formato de imagen</string>
     <string name="pref_camera2_switcher_entry_front">Frontal</string>
+    <string name="pref_camera2_force_aux_title">Forzar AUX</string>
     <string name="pref_camera2_force_aux_entry_on">Activado</string>
     <string name="pref_camera2_force_aux_entry_off">Apagar</string>
     <string name="pref_camera2_stats_visualizer_title">Visualizador de estadísticas</string>
@@ -446,4 +457,6 @@
     <string name="pref_camera2_abort_captures_entry_disable">Desactivado</string>
     <string name="pref_camera_tone_mapping_entry_user_setting">Configuración de usuario</string>
     <string name="pref_camera_tone_mapping_entry_off">Apagar</string>
+    <string name="pref_multi_camera_hal_zsl_title">HAL ZSL</string>
+    <string name="lock_af_ae_label">Bloqueo AE/AF</string>
 </resources>
