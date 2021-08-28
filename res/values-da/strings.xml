@@ -282,6 +282,29 @@
     <string name="setting_wallpaper">Angiver baggrund</string>
     <string name="remaining_photos_format">%d tilbage</string>
     <string name="makeup_video_size_limit">Makeup virker kun i VGA-størrelse under videooptagelse.</string>
+    <string name="pref_camera2_restore_default">Gendan oprindelige indstillinger</string>
+    <string name="pref_camera2_restore_default_hint">Kameraindstillinger vil blive gendannet til standardindstillinger</string>
+    <plurals name="save_best_dialog_content">
+        <item quantity="one">%1$d af 10 billeder vil blive gemt og resten vil blive slettet</item>
+        <item quantity="other">%1$d af 10 billeder vil blive gemt og resten vil blive slettet</item>
+    </plurals>
+    <string name="save_best_dialog_title">Gem valgte billeder?</string>
     <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_native_bt">Annullér</string>
+    <plurals name="save_best_image_toast">
+        <item quantity="one">%1$d af 10 billeder gemt.</item>
+        <item quantity="other">%1$d af 10 billeder gemt.</item>
+    </plurals>
+    <string name="dialog_do_not_show">Vis ikke igen</string>
+    <string name="delete_best_dialog_title">Slet alle?</string>
+    <string name="delete_best_dialog_content">Er du sikker på du vil slette alle 10 billeder?</string>
+    <string name="delete_best_dialog_native_bt">Annullér</string>
     <string name="delete_best_dialog_positive_bt">Slet</string>
+    <string name="delete_all_best_dialog_title">Slet alle?</string>
+    <string name="delete_all_best_dialog_content">Er du sikker på, at du vil slette alle billeder?</string>
+    <string name="delete_all_best_dialog_native_bt">Annullér</string>
+    <string name="delete_all_best_dialog_positive_bt">Slet alle</string>
+    <string name="overflow_best_item1">Gem alle</string>
+    <string name="overflow_best_item2">Slet alle</string>
+    <string name="settings_title">Indstillinger</string>
 </resources>

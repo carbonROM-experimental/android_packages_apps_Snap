@@ -120,6 +120,7 @@
     <string name="pref_camera_hfr_entry_4x">Zwolnione tempo 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Zwolnione tempo 240 FPS</string>
     <string name="pref_camera_hfr_entry_16x">Zwolnione tempo 480 FPS</string>
+    <string name="pref_camera_hfr_entry_32x">Zwolnione tempo 960 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Wysoka szybkość 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Wysoka szybkość 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Wysoka szybkość 120 FPS</string>
@@ -401,6 +402,8 @@
     <string name="pref_camera2_bsgc_title">Wykrywanie uśmiechu / mrugnięcia / spojrzenia</string>
     <string name="pref_camera2_bsgc_entry_enable">Włącz</string>
     <string name="pref_camera2_bsgc_entry_disable">Wyłącz</string>
+    <string name="pref_camera2_face_detection_entry_simple">Prosta</string>
+    <string name="pref_camera2_face_detection_entry_full">Pełna</string>
     <string name="pref_camera2_zsl_title">Brak opóźnienia migawki</string>
     <string name="pref_camera2_zsl_entry_disable">Wyłączone</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Programowe ZSL</string>
@@ -426,6 +429,7 @@
     <string name="pref_camera2_video_hdr_entry_enable">Włączone</string>
     <string name="pref_camera2_video_hdr_entry_disable">Wyłączone</string>
     <string name="pref_camera2_picture_format_title">Format obrazu</string>
+    <string name="pref_camera2_switcher_title">Przełącznik kamery</string>
     <string name="pref_camera2_switcher_entry_front">Przód</string>
     <string name="pref_camera2_force_aux_entry_on">Włączone</string>
     <string name="pref_camera2_force_aux_entry_off">Wyłączone</string>
@@ -444,6 +448,7 @@
     <string name="pref_camera2_abort_captures_title">Przerwij przechwytywanie</string>
     <string name="pref_camera2_abort_captures_entry_enable">Włączone</string>
     <string name="pref_camera2_abort_captures_entry_disable">Wyłączone</string>
+    <string name="pref_camera_tone_mapping_title">Mapowanie tonów</string>
     <string name="pref_camera_tone_mapping_entry_user_setting">Ustawienia użytkownika</string>
     <string name="pref_camera_tone_mapping_entry_off">Wyłączone</string>
 </resources>

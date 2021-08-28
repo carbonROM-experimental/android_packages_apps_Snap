@@ -88,4 +88,5 @@
     <string name="pref_camera_shutter_speed_title">Lukkerhastighed</string>
     <string name="developer_menu_enabled">Du har aktiveret avanceret kamera indstillinger</string>
     <string name="developer_menu_disabled">Du har deaktiveret avanceret kamera indstillinger</string>
+    <string name="hfr_unsupported_current_resolution">HFR understøttes ikke for denne opløsning</string>
 </resources>
